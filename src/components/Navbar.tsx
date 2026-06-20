@@ -74,7 +74,7 @@ export default function Navbar() {
                   {l.label}
                   <span className={`text-xs transition-transform duration-200 ${dropdownOpen ? "rotate-180" : ""}`}>▾</span>
                 </button>
-                {dropdownOpen && (
+                {dropdownOpen && l.children && (
                   <div className="absolute top-full left-0 mt-1 w-60 bg-cream-50 rounded-2xl shadow-xl border border-cream-200 py-2 z-50">
                     {l.children.map((c) => (
                       <Link
