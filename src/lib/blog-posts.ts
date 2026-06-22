@@ -466,4 +466,433 @@ export const blogPosts: BlogPost[] = [
 <p><em>Horehound is available at The Modern Apothecary by EVOKE in loose leaf, tincture, and syrup form.</em></p>
     `,
   },
+  {
+    slug: "herb-of-the-week-echinacea",
+    title: "Herb of the Week: Echinacea — The Immune System's First Responder",
+    date: "2026-07-16",
+    category: "Herb of the Week",
+    excerpt: "Echinacea is the most popular herbal supplement in the United States — but are you using it correctly? Here's the real story on this powerful immune herb.",
+    content: `
+<p>Echinacea is everywhere — in every health food store, every pharmacy, every cold and flu season display. But being popular doesn't mean being well understood. Most people grab echinacea at the first sign of a cold and take it for weeks. That's not how this plant works. Used correctly, though, echinacea is one of the most effective immune herbs we have.</p>
+
+<h2>What Is Echinacea?</h2>
+<p>Echinacea is a genus of flowering plants native to North America — the purple coneflowers you see in gardens are echinacea. The three most medicinally used species are <em>E. purpurea</em>, <em>E. angustifolia</em>, and <em>E. pallida</em>. Native American tribes used echinacea more than almost any other plant — for infections, wounds, snakebites, and fevers. European settlers learned from them, and by the late 1800s it was the most widely prescribed medicinal plant in America.</p>
+
+<h2>What Echinacea Is Good For</h2>
+<ul>
+  <li><strong>Shortening colds and flu</strong> — research shows echinacea can reduce the duration and severity of upper respiratory infections</li>
+  <li><strong>Immune stimulation</strong> — increases the activity of white blood cells and other immune components</li>
+  <li><strong>Wound healing</strong> — topically, echinacea accelerates healing and reduces infection risk</li>
+  <li><strong>Recurring infections</strong> — used in cycles to support people who get sick frequently</li>
+</ul>
+
+<h2>The Most Important Thing: How to Use It</h2>
+<p><strong>Echinacea is an acute herb, not a daily supplement.</strong> It works by stimulating the immune system — but if you stimulate it constantly, it stops responding. The correct approach:</p>
+<ul>
+  <li>Take it at the very first sign of illness — that scratch in the throat, that slight fatigue</li>
+  <li>Use it for 7–10 days maximum, then stop</li>
+  <li>For prevention, use it in cycles: 2–3 weeks on, 1 week off</li>
+</ul>
+<p><strong>Tincture</strong> is the most effective form. Tea and capsules work but are less potent.</p>
+
+<h2>A Spiritual Note</h2>
+<p>Echinacea is a plant of boundaries. It helps the body recognize what belongs inside and what doesn't — distinguishing self from other, friendly from foreign. In a world where we're constantly bombarded with things that drain and deplete us, there's something meaningful about a plant that strengthens your ability to protect what's yours.</p>
+    `,
+  },
+  {
+    slug: "herb-of-the-week-ashwagandha",
+    title: "Herb of the Week: Ashwagandha — The Adaptogen That Restores",
+    date: "2026-07-18",
+    category: "Herb of the Week",
+    excerpt: "Ashwagandha is one of the most important herbs in Ayurvedic medicine — and one of the most well-researched adaptogens in the world. Here's what it can do for stress, sleep, and resilience.",
+    content: `
+<p>If there's one herb that has crossed over from ancient tradition into modern science most convincingly, it's ashwagandha. Thousands of years of Ayurvedic use, dozens of clinical trials, and a growing body of research all point in the same direction: this root is the real deal.</p>
+
+<h2>What Is Ashwagandha?</h2>
+<p>Ashwagandha (<em>Withania somnifera</em>) is a small shrub native to India, North Africa, and the Mediterranean. In Sanskrit, its name means "smell of horse" — both a reference to its earthy aroma and the belief that it imparts the strength and vitality of a horse. It is classified as a <em>rasayana</em> in Ayurveda — a rejuvenating tonic meant to restore and rebuild the body over time.</p>
+
+<h2>What Ashwagandha Is Good For</h2>
+<ul>
+  <li><strong>Stress and cortisol</strong> — clinical studies show ashwagandha significantly reduces cortisol levels and perceived stress</li>
+  <li><strong>Sleep</strong> — improves sleep quality, particularly for those whose sleep is disrupted by stress and anxiety</li>
+  <li><strong>Energy and stamina</strong> — paradoxically calming and energizing; builds sustainable energy without stimulation</li>
+  <li><strong>Thyroid support</strong> — research suggests it can support thyroid hormone levels in cases of subclinical hypothyroidism</li>
+  <li><strong>Strength and recovery</strong> — studies show improvements in muscle strength, recovery time, and endurance</li>
+  <li><strong>Cognitive function</strong> — supports memory, reaction time, and mental clarity</li>
+</ul>
+
+<h2>How to Use It</h2>
+<p><strong>This is a long-game herb.</strong> Ashwagandha builds its effects over weeks and months of consistent use. Don't expect to feel it after one dose.</p>
+<p><strong>Capsule or powder:</strong> 300–600mg of root extract daily is the studied dose. KSM-66 and Sensoril are well-researched extract forms.</p>
+<p><strong>Golden milk:</strong> Mix ashwagandha powder with warm milk (dairy or plant-based), turmeric, honey, and black pepper. A nourishing evening ritual.</p>
+<p><strong>Tincture:</strong> Available at our apothecary for those who prefer liquid extracts.</p>
+
+<h2>A Spiritual Note</h2>
+<p>Adaptogens like ashwagandha don't push or pull — they help you find your own center. In a culture obsessed with more, faster, louder, an herb that simply helps you be steady is quietly radical. Ashwagandha doesn't make you someone else. It helps you be more fully yourself, even under pressure.</p>
+    `,
+  },
+  {
+    slug: "herb-of-the-week-valerian",
+    title: "Herb of the Week: Valerian — The Herb That Lets You Rest",
+    date: "2026-07-20",
+    category: "Herb of the Week",
+    excerpt: "Valerian is one of the oldest and most effective herbal sleep aids known to humanity. Here's the science, the tradition, and the honest truth about this powerful root.",
+    content: `
+<p>Valerian has a reputation. It smells terrible — earthy, pungent, a little like old socks. But ask anyone who has used it for sleep, and they'll tell you the smell doesn't matter at all once you've had a full night of deep, restful sleep for the first time in months.</p>
+
+<h2>What Is Valerian?</h2>
+<p>Valerian (<em>Valeriana officinalis</em>) is a flowering plant native to Europe and Asia, naturalized in North America. Its name may come from the Latin <em>valere</em> — "to be strong" or "to be well." The root is the medicinal part, and it has been used as a sleep aid and anxiety remedy since at least ancient Greece. Hippocrates described its uses. Galen prescribed it for insomnia. It has never really gone out of fashion.</p>
+
+<h2>What Valerian Is Good For</h2>
+<ul>
+  <li><strong>Sleep onset</strong> — helps you fall asleep faster, particularly for those with racing minds at bedtime</li>
+  <li><strong>Sleep quality</strong> — research shows improved deep sleep and reduced nighttime waking</li>
+  <li><strong>Anxiety</strong> — acts on GABA receptors similarly to benzodiazepines, but gently and without dependency risk</li>
+  <li><strong>Muscle tension</strong> — relaxes smooth and skeletal muscle; helpful for tension headaches and menstrual cramps</li>
+  <li><strong>Stress</strong> — takes the edge off acute stress; useful before high-pressure situations</li>
+</ul>
+
+<h2>How to Use It</h2>
+<p><strong>Take it 30–60 minutes before bed.</strong> Valerian is not a sedative in the pharmaceutical sense — it doesn't knock you out. It quiets the nervous system so sleep can come naturally.</p>
+<p><strong>Capsule:</strong> Most convenient form. 300–600mg of root extract before bed.</p>
+<p><strong>Tincture:</strong> Fast-acting; 30–60 drops in water before bed.</p>
+<p><strong>Tea:</strong> Steep 1 teaspoon of dried root for 10–15 minutes. The smell and taste are strong — combine with peppermint or lemon balm to improve palatability.</p>
+<p><strong>Note:</strong> Valerian builds its effects over 2–4 weeks of consistent use. Give it time before deciding it doesn't work.</p>
+
+<h2>A Spiritual Note</h2>
+<p>Sleep is not a passive state. It is when the body repairs, the mind processes, and the soul integrates. To deprive yourself of sleep is to deprive yourself of one of the most important healing experiences available to you every single night. Valerian is an invitation: come back to rest. Everything else can wait.</p>
+    `,
+  },
+  {
+    slug: "herb-of-the-week-st-johns-wort",
+    title: "Herb of the Week: St. John's Wort — Sunshine in Herb Form",
+    date: "2026-07-22",
+    category: "Herb of the Week",
+    excerpt: "St. John's Wort has been used for depression, nerve pain, wound healing, and anxiety for over 2,000 years. Here's what the research says — and what traditional wisdom knows.",
+    content: `
+<p>St. John's Wort blooms around the summer solstice — the longest, brightest day of the year — and that timing feels intentional. This is an herb associated with light, warmth, and the lifting of darkness. It has been used for melancholy and despair for over two thousand years, and modern research has confirmed what healers throughout history already knew.</p>
+
+<h2>What Is St. John's Wort?</h2>
+<p>St. John's Wort (<em>Hypericum perforatum</em>) is a wildflower with small yellow blooms that appear to have tiny dots when held up to light — those "dots" are actually oil glands containing the active compounds hypericin and hyperforin. It's native to Europe but grows freely across North America. It's one of the most studied herbs in the world.</p>
+
+<h2>What St. John's Wort Is Good For</h2>
+<ul>
+  <li><strong>Mild to moderate depression</strong> — multiple meta-analyses show it is as effective as SSRIs for mild to moderate depression, with fewer side effects</li>
+  <li><strong>Anxiety</strong> — calming effects on the nervous system; helpful for anxious depression and seasonal mood changes</li>
+  <li><strong>Nerve pain</strong> — topically and internally, one of the best herbs for nerve damage, neuralgia, and sciatica</li>
+  <li><strong>Wound healing</strong> — St. John's Wort-infused oil is deeply healing for bruises, burns, and sore muscles</li>
+  <li><strong>Seasonal affective disorder</strong> — particularly effective for the low mood that comes with reduced light exposure</li>
+</ul>
+
+<h2>How to Use It</h2>
+<p><strong>For mood:</strong> Standardized capsules (0.3% hypericin) — 300mg three times daily. <strong>Give it 4–6 weeks</strong> before evaluating effectiveness.</p>
+<p><strong>Tincture:</strong> Effective but must be made from fresh or freshly dried plant material — the active compounds degrade quickly.</p>
+<p><strong>Infused oil:</strong> The classic preparation for external use. Apply to bruises, sore muscles, nerve pain, and skin irritation.</p>
+
+<h2>Critical Drug Interactions</h2>
+<p>St. John's Wort is a potent inducer of liver enzymes and can significantly reduce the effectiveness of many medications including birth control, antiretrovirals, blood thinners, and antidepressants. <strong>If you take any prescription medications, consult a healthcare provider before using St. John's Wort.</strong> This is not a reason to avoid it — it's a reason to use it wisely.</p>
+
+<h2>A Spiritual Note</h2>
+<p>In European folk tradition, St. John's Wort was hung above doorways on midsummer's eve to protect against dark spirits and negative energy. Whether you hold that literally or metaphorically, there's something true in it. This is a plant that helps light find its way back in — into the body, into the mind, into the spirit. Some of us need that more than we admit.</p>
+    `,
+  },
+  {
+    slug: "herb-of-the-week-turmeric",
+    title: "Herb of the Week: Turmeric — The Golden Root of Healing",
+    date: "2026-07-24",
+    category: "Herb of the Week",
+    excerpt: "Turmeric is one of the most researched medicinal plants in history. Its active compound curcumin has been studied for everything from inflammation to cancer prevention. Here's what you need to know.",
+    content: `
+<p>Turmeric has been called the most anti-inflammatory food on earth. That's a bold claim — but the research behind it is substantial. Over 10,000 peer-reviewed studies have been published on turmeric and its active compound curcumin. This golden root has been central to Ayurvedic and Chinese medicine for over 4,000 years, and modern science is still catching up to what traditional healers already knew.</p>
+
+<h2>What Is Turmeric?</h2>
+<p>Turmeric (<em>Curcuma longa</em>) is a rhizome in the ginger family, native to Southeast Asia. The bright orange-yellow root is used as a spice, dye, and medicine. Curcumin is its primary active compound — the pigment that gives turmeric its color and most of its medicinal properties.</p>
+
+<h2>What Turmeric Is Good For</h2>
+<ul>
+  <li><strong>Inflammation</strong> — curcumin inhibits multiple inflammatory pathways; studied for arthritis, inflammatory bowel disease, and chronic inflammation</li>
+  <li><strong>Joint pain</strong> — clinical trials show it rivals ibuprofen for osteoarthritis pain with far fewer side effects</li>
+  <li><strong>Brain health</strong> — increases BDNF (brain-derived neurotrophic factor); being studied for Alzheimer's prevention</li>
+  <li><strong>Liver support</strong> — protects and supports liver detoxification pathways</li>
+  <li><strong>Gut health</strong> — anti-inflammatory and antimicrobial effects in the digestive tract</li>
+  <li><strong>Antioxidant</strong> — neutralizes free radicals and boosts the body's own antioxidant enzymes</li>
+</ul>
+
+<h2>The Bioavailability Problem — and How to Solve It</h2>
+<p>Here's the thing about turmeric: curcumin is poorly absorbed on its own. Most of it passes through your system without being used. The solution is simple:</p>
+<ul>
+  <li><strong>Add black pepper.</strong> Piperine in black pepper increases curcumin absorption by 2,000%. Always combine them.</li>
+  <li><strong>Add fat.</strong> Curcumin is fat-soluble. Cook turmeric in oil or take it with a fatty meal.</li>
+  <li><strong>Use liposomal or phospholipid-bound supplements</strong> for therapeutic doses.</li>
+</ul>
+
+<h2>How to Use It</h2>
+<p><strong>Golden milk:</strong> Warm milk with turmeric, black pepper, ginger, honey, and coconut oil. Delicious and deeply anti-inflammatory.</p>
+<p><strong>Cooking:</strong> Add to soups, stews, rice, and roasted vegetables — always with black pepper.</p>
+<p><strong>Capsule:</strong> Look for formulas that include piperine or use liposomal delivery.</p>
+
+<h2>A Spiritual Note</h2>
+<p>In Hindu tradition, turmeric is sacred. It's used in wedding ceremonies, religious offerings, and purification rituals. Its golden color is associated with the divine feminine and with prosperity. There is something deeply hopeful about a plant that fights the cellular damage of a stressful world with quiet, golden persistence.</p>
+    `,
+  },
+  {
+    slug: "herb-of-the-week-ginger",
+    title: "Herb of the Week: Ginger — Fire, Medicine, and Ancient Wisdom",
+    date: "2026-07-26",
+    category: "Herb of the Week",
+    excerpt: "Ginger is one of the most widely used medicinal plants in human history. From nausea to inflammation to circulation, this fiery root earns its place in every apothecary.",
+    content: `
+<p>Ginger has been traded, prized, and used as medicine for over 5,000 years. It traveled the Silk Road. It was once worth its weight in silver. Medieval Europeans used it to ward off the plague. Sailors carried it to prevent seasickness. Today it sits in most kitchens, often underestimated — but never less than remarkable.</p>
+
+<h2>What Is Ginger?</h2>
+<p>Ginger (<em>Zingiber officinale</em>) is a tropical rhizome native to Southeast Asia. Its pungent, warming compounds — gingerols and shogaols — are responsible for both its distinctive flavor and its extensive medicinal properties. It is used in Ayurvedic, Traditional Chinese, and Western herbalism alike, which tells you something about how universally recognized its value is.</p>
+
+<h2>What Ginger Is Good For</h2>
+<ul>
+  <li><strong>Nausea</strong> — one of the most evidence-based herbal remedies; effective for morning sickness, motion sickness, chemotherapy-induced nausea, and post-surgical nausea</li>
+  <li><strong>Inflammation</strong> — gingerols inhibit inflammatory enzymes similarly to NSAIDs; effective for arthritis and muscle soreness</li>
+  <li><strong>Digestion</strong> — stimulates digestive enzymes, speeds gastric emptying, relieves bloating and gas</li>
+  <li><strong>Circulation</strong> — warming and circulatory stimulant; helps with cold hands and feet, poor peripheral circulation</li>
+  <li><strong>Immune support</strong> — antimicrobial and antiviral properties; warming during colds and flu</li>
+  <li><strong>Pain</strong> — menstrual cramps, headaches, and general pain relief</li>
+</ul>
+
+<h2>How to Use It</h2>
+<p><strong>Fresh ginger tea:</strong> Slice a 1-inch piece of fresh root, simmer in water for 10 minutes, add lemon and honey. The most bioavailable form.</p>
+<p><strong>Cooking:</strong> Fresh or dried in food. Bioavailability increases when cooked with fat.</p>
+<p><strong>Capsule:</strong> Convenient for therapeutic anti-inflammatory or nausea use.</p>
+<p><strong>Tincture:</strong> Concentrated and fast-acting for acute nausea or digestive upset.</p>
+<p><strong>Topical:</strong> Ginger-infused oil applied to sore joints and muscles provides warming pain relief.</p>
+
+<h2>A Spiritual Note</h2>
+<p>Ginger is associated with fire — the fire element, the solar plexus, the will. It warms what is cold, moves what is stuck, and activates what is dormant. In many traditions it is used for courage, clarity, and manifesting intention. There are times in life when we need a plant that doesn't just soothe — but lights something up inside us. Ginger is that plant.</p>
+    `,
+  },
+  {
+    slug: "herb-of-the-week-elderberry",
+    title: "Herb of the Week: Elderberry — The Village Pharmacy of Europe",
+    date: "2026-07-28",
+    category: "Herb of the Week",
+    excerpt: "For centuries, every part of the elder tree was used as medicine in European villages. Today elderberry is most famous for immune support — but its history and depth go far beyond a syrup.",
+    content: `
+<p>There's an old European saying: "The elder is the medicine chest of the country people." Every part of the elder tree — flower, berry, bark, leaf, root — was used for something. Fever, colds, infections, pain, inflammation. Elder was the village pharmacy, growing at the edge of fields and farmyards, available to everyone. That kind of widespread, intergenerational use doesn't happen by accident.</p>
+
+<h2>What Is Elderberry?</h2>
+<p>Elderberry (<em>Sambucus nigra</em>) is a shrubby tree native to Europe and North America. The deep purple-black berries and the creamy white flower clusters are both medicinally valuable, though with different applications. The berries are most commonly used for immune support; the flowers for fever, respiratory illness, and skin care.</p>
+
+<h2>What Elderberry Is Good For</h2>
+<ul>
+  <li><strong>Cold and flu prevention and treatment</strong> — elderberry compounds bind to and neutralize influenza viruses; clinical studies show reduced duration and severity of flu by up to 4 days</li>
+  <li><strong>Immune stimulation</strong> — increases cytokine production and activates immune cells</li>
+  <li><strong>Antioxidant</strong> — extraordinarily high in anthocyanins; one of the most antioxidant-rich foods available</li>
+  <li><strong>Elderflower for fever</strong> — diaphoretic (promotes sweating) and anti-inflammatory; classic remedy for breaking fevers</li>
+  <li><strong>Elderflower for skin</strong> — soothing and mildly astringent; used in tonics and creams for sensitive or irritated skin</li>
+</ul>
+
+<h2>How to Use It</h2>
+<p><strong>Elderberry syrup:</strong> The most popular preparation — simmer berries with water, honey, and spices (ginger, cinnamon, clove). Take 1 tablespoon daily for prevention, 1 tablespoon every few hours during illness.</p>
+<p><strong>Tincture or capsule:</strong> Convenient for daily immune support through cold and flu season.</p>
+<p><strong>Elderflower tea:</strong> For fevers and respiratory illness — steep dried flowers in hot water for 10 minutes.</p>
+
+<h2>Important Note</h2>
+<p>Raw elderberries contain compounds that can cause nausea. Always cook or properly prepare them before consuming. Commercially prepared elderberry products are safe.</p>
+
+<h2>A Spiritual Note</h2>
+<p>In European folk tradition, the elder tree was considered sacred — home to spirits, protective of the household, and deeply connected to the cycle of life and death. You were supposed to ask the tree's permission before harvesting. Whether or not you take that literally, there's wisdom in it: approach the plant world with respect and gratitude, not just utility. What you take with reverence tends to work better than what you take for granted.</p>
+    `,
+  },
+  {
+    slug: "herb-of-the-week-calendula",
+    title: "Herb of the Week: Calendula — The Sun Flower That Heals",
+    date: "2026-07-30",
+    category: "Herb of the Week",
+    excerpt: "Calendula is one of the gentlest and most effective healing herbs for skin, digestion, and the lymphatic system. Beautiful enough for a garden, powerful enough for a medicine cabinet.",
+    content: `
+<p>Calendula is the kind of herb that makes you fall in love with plant medicine. It's beautiful — bright orange and yellow flowers that track the sun across the sky, opening with the morning and closing at dusk. It smells warm and slightly resinous. And it heals with a gentleness that is somehow also deeply effective.</p>
+
+<h2>What Is Calendula?</h2>
+<p>Calendula (<em>Calendula officinalis</em>), often called pot marigold, is native to southern Europe and has been cultivated medicinally for over 1,000 years. It's not to be confused with ornamental marigolds (<em>Tagetes</em>) — calendula is its own species with a distinct medicinal profile. Its bright petals are the medicinal part, used fresh or dried in oils, teas, tinctures, and salves.</p>
+
+<h2>What Calendula Is Good For</h2>
+<ul>
+  <li><strong>Wound healing</strong> — one of the most effective herbs for all types of wounds; speeds cell regeneration and reduces infection risk</li>
+  <li><strong>Skin inflammation</strong> — eczema, psoriasis, rashes, sunburn, diaper rash — calendula soothes and heals</li>
+  <li><strong>Lymphatic support</strong> — moves stagnant lymph; helpful for swollen glands and chronic immune challenges</li>
+  <li><strong>Digestive healing</strong> — soothes and repairs the gut lining; excellent for gastritis, ulcers, and IBS</li>
+  <li><strong>Anti-inflammatory and antimicrobial</strong> — broad spectrum activity against bacteria and fungi</li>
+  <li><strong>Menstrual support</strong> — helps regulate cycles and ease cramping</li>
+</ul>
+
+<h2>How to Use It</h2>
+<p><strong>Infused oil:</strong> The foundation of most topical preparations. Fill a jar with dried calendula petals, cover completely with olive oil, and infuse for 4–6 weeks in a warm spot. Strain and use directly or in salves.</p>
+<p><strong>Salve:</strong> Calendula salve is one of the most useful things to have in your medicine cabinet — for cuts, burns, dry skin, and rashes.</p>
+<p><strong>Tea:</strong> Steep 1–2 teaspoons of dried petals for 10 minutes. Mildly flavored, golden, and deeply healing for the gut.</p>
+<p><strong>Tincture:</strong> For internal lymphatic and digestive support.</p>
+
+<h2>A Spiritual Note</h2>
+<p>Calendula follows the sun. Every day it opens toward the light and closes in the dark. There is something instructive about that — the practice of orienting yourself toward warmth, toward light, toward what is life-giving, and drawing inward when rest is needed. Calendula doesn't fight the dark. It just waits for morning. And then it opens again.</p>
+    `,
+  },
+  {
+    slug: "herb-of-the-week-rosemary",
+    title: "Herb of the Week: Rosemary — For Remembrance, and Much More",
+    date: "2026-08-01",
+    category: "Herb of the Week",
+    excerpt: "Rosemary is remembered for its culinary uses — but this aromatic herb has a rich history as a medicine for the brain, the circulation, the hair, and the spirit.",
+    content: `
+<p>"There's rosemary, that's for remembrance." Shakespeare knew what herbalists had known for centuries: rosemary and memory are linked. That connection is not just poetic — it's biochemical. But rosemary's gifts extend far beyond memory, into circulation, digestion, hair health, and a long tradition of spiritual use.</p>
+
+<h2>What Is Rosemary?</h2>
+<p>Rosemary (<em>Salvia rosmarinus</em>, formerly <em>Rosmarinus officinalis</em>) is a woody, evergreen herb native to the Mediterranean. Its name means "dew of the sea" — it grows wild along coastal cliffs, tolerating salt air and poor soil. It's one of the most aromatic herbs in existence, and that aroma is itself medicine.</p>
+
+<h2>What Rosemary Is Good For</h2>
+<ul>
+  <li><strong>Memory and cognitive function</strong> — the aroma of rosemary significantly improves memory and alertness; compounds like 1,8-cineole cross the blood-brain barrier</li>
+  <li><strong>Circulation</strong> — a circulatory stimulant; improves blood flow to the brain and extremities</li>
+  <li><strong>Hair growth</strong> — rosemary oil applied to the scalp rivals minoxidil for stimulating hair growth in studies; improves scalp circulation</li>
+  <li><strong>Digestion</strong> — stimulates bile production, eases bloating and gas, supports liver function</li>
+  <li><strong>Pain and inflammation</strong> — topically, helps with muscle pain, arthritis, and headaches</li>
+  <li><strong>Antioxidant</strong> — one of the most potent natural antioxidants known; used as a natural preservative</li>
+</ul>
+
+<h2>How to Use It</h2>
+<p><strong>Aromatherapy:</strong> Diffuse rosemary essential oil or simply smell a sprig of fresh rosemary when studying or working.</p>
+<p><strong>Scalp treatment:</strong> Dilute rosemary essential oil (2%) in a carrier oil and massage into the scalp. Leave for 30 minutes before washing.</p>
+<p><strong>Tea:</strong> Steep 1 teaspoon of fresh or dried rosemary for 5–7 minutes. Warming, aromatic, and digestively supportive.</p>
+<p><strong>Cooking:</strong> Fresh rosemary in food is genuinely medicinal — don't underestimate your kitchen.</p>
+
+<h2>A Spiritual Note</h2>
+<p>Rosemary has been burned at funerals and weddings, worn at graduations, and placed on altars across cultures and centuries. It is an herb of remembrance — not just memory, but honoring. Honoring those who came before, honoring the moments that shaped us, honoring who we are becoming. In a world of relentless forward motion, rosemary asks us to remember where we came from and why it matters.</p>
+    `,
+  },
+  {
+    slug: "herb-of-the-week-lemon-balm",
+    title: "Herb of the Week: Lemon Balm — The Gentle Healer of Anxiety and Grief",
+    date: "2026-08-03",
+    category: "Herb of the Week",
+    excerpt: "Lemon balm has been used for anxiety, grief, insomnia, and viral infections for over 2,000 years. It is one of the gentlest and most loved herbs in the Western tradition.",
+    content: `
+<p>There are herbs for the body and herbs for the heart. Lemon balm is both — but it has always had a special relationship with the emotional and spiritual dimensions of healing. Paracelsus called it "the elixir of life." Avicenna used it to "make the heart merry." Medieval monastery gardens always included it. This is an herb with a long memory of caring for people.</p>
+
+<h2>What Is Lemon Balm?</h2>
+<p>Lemon balm (<em>Melissa officinalis</em>) is a member of the mint family with bright green, softly serrated leaves that smell unmistakably of lemon when crushed. Native to the Mediterranean and Central Asia, it has been cultivated in gardens across Europe for over 2,000 years. <em>Melissa</em> is Greek for honeybee — lemon balm is beloved by pollinators and humans alike.</p>
+
+<h2>What Lemon Balm Is Good For</h2>
+<ul>
+  <li><strong>Anxiety and stress</strong> — one of the safest and most effective herbs for anxiety; calms without sedating</li>
+  <li><strong>Sleep</strong> — combined with valerian, highly effective for insomnia; alone, helpful for stress-related sleep disturbance</li>
+  <li><strong>Grief and sadness</strong> — traditionally used specifically for heartache, grief, and melancholy; the "merry heart" herb</li>
+  <li><strong>Herpes simplex</strong> — topically, lemon balm cream has strong clinical evidence for reducing cold sore healing time and recurrence</li>
+  <li><strong>Thyroid</strong> — may help moderate an overactive thyroid; used cautiously in hyperthyroidism</li>
+  <li><strong>Digestion</strong> — eases nervous stomach, IBS, and stress-related digestive upset</li>
+  <li><strong>Children</strong> — one of the safest herbs for anxious or restless children</li>
+</ul>
+
+<h2>How to Use It</h2>
+<p><strong>Tea:</strong> The classic form. Steep 2–3 teaspoons of fresh leaves or 1–2 teaspoons dried for 5–7 minutes. Bright, lemony, and genuinely calming. Drink freely.</p>
+<p><strong>Tincture:</strong> Convenient for acute anxiety — a few drops under the tongue brings noticeable calm within minutes.</p>
+<p><strong>Topical cream:</strong> For cold sores, apply lemon balm cream at the first sign of tingling.</p>
+<p><strong>Fresh:</strong> Add fresh lemon balm to water, smoothies, salads, and desserts.</p>
+
+<h2>A Spiritual Note</h2>
+<p>Lemon balm has always been an herb of the heart — not the physical heart, but the emotional one. The seat of feeling, connection, and grief. In a culture that often pathologizes sadness and rushes people through loss, lemon balm offers something different: a gentle presence, a little brightness, a reminder that feeling fully is not a problem to be solved. Sometimes what the heart needs is not fixing. It needs company. Lemon balm is good company.</p>
+    `,
+  },
+  {
+    slug: "herb-of-the-week-passionflower",
+    title: "Herb of the Week: Passionflower — The Quieter Mind",
+    date: "2026-08-05",
+    category: "Herb of the Week",
+    excerpt: "Passionflower is one of the most effective herbal remedies for anxiety and insomnia — particularly the kind driven by racing, repetitive thoughts. Here's how this extraordinary plant works.",
+    content: `
+<p>If you've ever lain awake at 2am, the same thought cycling through your mind on an endless loop, passionflower was made for you. This is an herb with a specific gift: quieting the mental chatter that keeps the nervous system from settling. It doesn't numb or sedate. It simply turns down the volume on the noise.</p>
+
+<h2>What Is Passionflower?</h2>
+<p>Passionflower (<em>Passiflora incarnata</em>) is a climbing vine native to the southeastern United States. Its flowers are extraordinarily beautiful — intricate, otherworldly, almost architectural. Spanish missionaries who encountered it in the Americas named it after the Passion of Christ, seeing symbolic meaning in its structure. Indigenous peoples of North America used it long before that — for anxiety, insomnia, and pain.</p>
+
+<h2>What Passionflower Is Good For</h2>
+<ul>
+  <li><strong>Anxiety with mental rumination</strong> — specifically indicated for the kind of anxiety characterized by overthinking, circular thoughts, and inability to "turn off the mind"</li>
+  <li><strong>Insomnia</strong> — particularly sleep-onset insomnia driven by mental activity; clinical trials show improved sleep quality</li>
+  <li><strong>Generalized anxiety disorder</strong> — in one study, comparable to oxazepam (a benzodiazepine) with no impairment of job performance</li>
+  <li><strong>Withdrawal support</strong> — used in addiction medicine to ease withdrawal symptoms from opiates and alcohol</li>
+  <li><strong>High blood pressure</strong> — mild antihypertensive effect, partly through nervous system relaxation</li>
+</ul>
+
+<h2>How to Use It</h2>
+<p><strong>Tincture:</strong> The most effective form. 30–60 drops in water 30–60 minutes before bed, or as needed for anxiety during the day.</p>
+<p><strong>Tea:</strong> Steep 1–2 teaspoons of dried herb for 10 minutes. Pleasant tasting, slightly earthy.</p>
+<p><strong>Capsule:</strong> Convenient for daily use.</p>
+<p><strong>Combined with valerian and lemon balm:</strong> A classic herbal sleep formula — each herb addresses a different aspect of sleeplessness.</p>
+
+<h2>A Spiritual Note</h2>
+<p>The mind that won't stop is often a mind that doesn't trust. Doesn't trust that things will be okay without its constant vigilance. Passionflower doesn't argue with the mind — it just gently reminds the nervous system that it's safe to rest. That the world will continue without your constant monitoring of it. That you are allowed to put it down, just for tonight. That's not just herbalism. That's grace.</p>
+    `,
+  },
+  {
+    slug: "herb-of-the-week-holy-basil",
+    title: "Herb of the Week: Holy Basil (Tulsi) — The Sacred Adaptogen",
+    date: "2026-08-07",
+    category: "Herb of the Week",
+    excerpt: "Holy basil — tulsi — is one of the most revered plants in Ayurvedic tradition. A powerful adaptogen, anti-inflammatory, and spiritual ally, this is an herb for the whole person.",
+    content: `
+<p>In India, tulsi grows in the courtyard of nearly every Hindu home. It is tended daily, offered water, and treated with the reverence given to a living deity. For over 3,000 years it has been called <em>the queen of herbs</em> — an adaptogen, a medicine, and a sacred presence. When a plant is treated as holy by an entire civilization for three millennia, it's worth paying attention to.</p>
+
+<h2>What Is Holy Basil?</h2>
+<p>Holy basil (<em>Ocimum tenuiflorum</em>), known as tulsi in Sanskrit, is native to the Indian subcontinent and related to culinary basil — but distinct in its chemistry and far more medicinally potent. There are several varieties (Rama, Vana, and Krishna tulsi), each with slightly different properties. All are adaptogens — herbs that help the body resist physical and psychological stress.</p>
+
+<h2>What Holy Basil Is Good For</h2>
+<ul>
+  <li><strong>Stress and cortisol</strong> — one of the most effective adaptogens for stress; reduces cortisol, anxiety, and the physical symptoms of chronic stress</li>
+  <li><strong>Blood sugar regulation</strong> — clinical studies show it can reduce fasting blood glucose and improve insulin sensitivity</li>
+  <li><strong>Anti-inflammatory</strong> — comparable to ibuprofen in some studies for anti-inflammatory activity</li>
+  <li><strong>Immune support</strong> — antimicrobial, antiviral, and immune-modulating; helpful during illness and for ongoing immune health</li>
+  <li><strong>Cognitive support</strong> — improves memory, reaction time, and mental clarity; used in Ayurveda for cognitive longevity</li>
+  <li><strong>Heart health</strong> — lowers blood pressure, cholesterol, and supports cardiovascular function</li>
+</ul>
+
+<h2>How to Use It</h2>
+<p><strong>Tea:</strong> The most traditional form. Tulsi tea is widely available and genuinely delicious — slightly clove-like and warming. Drink 1–3 cups daily.</p>
+<p><strong>Fresh leaves:</strong> Eat a few fresh leaves daily as a tonic practice. Simple and powerful.</p>
+<p><strong>Tincture or capsule:</strong> For therapeutic adaptogenic support, standardized extracts are available.</p>
+<p><strong>Combined with ashwagandha:</strong> A classic Ayurvedic pairing for stress resilience and vitality.</p>
+
+<h2>A Spiritual Note</h2>
+<p>In Ayurveda, tulsi is said to open the heart and mind, to clarify perception, and to support the soul's connection to the divine. Whether you hold that metaphorically or literally, there is something about this plant that feels different from a standard supplement. It asks to be approached with a certain quality of attention. Grow it if you can. Care for it. Let the relationship be mutual. The plants we tend tend us back.</p>
+    `,
+  },
+  {
+    slug: "herb-of-the-week-nettle",
+    title: "Herb of the Week: Nettle — The Most Nutritious Weed You're Ignoring",
+    date: "2026-08-09",
+    category: "Herb of the Week",
+    excerpt: "Stinging nettle is one of the most nutritionally dense plants on earth and a powerhouse medicine for allergies, inflammation, kidney health, and more. Here's why this 'weed' deserves deep respect.",
+    content: `
+<p>Nettle stings you if you touch it. That's how most people know it — a plant to be avoided. But herbalists have always seen it differently. A plant that defends itself that vigorously usually has something worth protecting. And nettle does. It is one of the most nutritionally and medicinally rich plants that grows freely across North America — and most people walk right past it.</p>
+
+<h2>What Is Nettle?</h2>
+<p>Stinging nettle (<em>Urtica dioica</em>) is a perennial herb found throughout temperate regions worldwide. The tiny hollow hairs on its leaves inject a cocktail of formic acid, histamine, and other compounds on contact — hence the sting. But cooked, dried, or processed, those compounds are neutralized and what remains is one of the most nutrient-dense plants available.</p>
+
+<h2>What Nettle Is Good For</h2>
+<ul>
+  <li><strong>Nutrition</strong> — extraordinarily high in iron, calcium, magnesium, potassium, vitamins A, C, and K, and protein; one of the most complete plant foods</li>
+  <li><strong>Allergies and hay fever</strong> — freeze-dried nettle leaf has clinical evidence for reducing allergy symptoms; appears to work by inhibiting histamine release</li>
+  <li><strong>Kidney and urinary health</strong> — a gentle diuretic that supports kidney function and helps flush urinary tract infections</li>
+  <li><strong>Inflammation and arthritis</strong> — anti-inflammatory compounds reduce joint pain; topical application (yes, intentional stinging) has been used for arthritis with positive results in trials</li>
+  <li><strong>Iron-deficiency anemia</strong> — one of the best plant sources of absorbable iron; combined with vitamin C for best absorption</li>
+  <li><strong>Prostate health</strong> — nettle root is used for benign prostatic hyperplasia (BPH) with clinical support</li>
+</ul>
+
+<h2>How to Use It</h2>
+<p><strong>Tea (infusion):</strong> Steep 1–2 tablespoons of dried nettle leaf in hot water for 10–15 minutes. A long infusion (4+ hours) extracts maximum minerals. Earthy, green, nourishing.</p>
+<p><strong>Food:</strong> Young nettle leaves can be cooked like spinach — in soups, sautéed, in pasta. Blanching neutralizes the sting. Highly nutritious.</p>
+<p><strong>Freeze-dried capsule:</strong> The form used in allergy research — must be freeze-dried, not simply dried.</p>
+<p><strong>Tincture (root):</strong> For prostate support — the root, not the leaf.</p>
+
+<h2>A Spiritual Note</h2>
+<p>Nettle teaches a lesson that plants are often better at delivering than people: approach something without respect, and it will sting you. Approach it with care, and it will nourish you completely. The plants that protect themselves most fiercely often give the most generously once trust is established. There are people like that too. And situations. And places. Not everything that stings is trying to hurt you.</p>
+
+<p><em>Nettle is available at The Modern Apothecary by EVOKE in loose leaf, tincture, and capsule form.</em></p>
+    `,
+  },
 ].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
