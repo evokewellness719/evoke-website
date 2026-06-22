@@ -12,6 +12,7 @@ const partners = [
     desc: "Therapeutic arts studio led by Caitlin Elizabeth — offering workshops and creative healing sessions.",
     perk: "7% off",
     icon: "🎨",
+    logo: "/caitspace-logo.png",
     address: null,
     url: "https://www.caitspaceltd.com/",
   },
@@ -20,6 +21,7 @@ const partners = [
     desc: "Monument-based wellness sanctuary offering infrared sauna, halotherapy, and red light therapy.",
     perk: "15% off infrared sauna",
     icon: "🧖",
+    logo: "/holistique-logo.png",
     address: "6577 Cinematic View, Monument, CO 80132",
     url: "https://www.holistiquebydesign.com/",
   },
@@ -28,6 +30,7 @@ const partners = [
     desc: "Mycology shop specializing in mushroom products, supplements, and education.",
     perk: "7% off",
     icon: "🍄",
+    logo: null,
     address: "2627 W Colorado Ave, Colorado Springs, CO 80904",
     url: "https://mushlovetee.com/",
   },
@@ -36,6 +39,7 @@ const partners = [
     desc: "Hair salon led by experienced cosmetologist Molly Lovejoy.",
     perk: "7% off",
     icon: "✂️",
+    logo: null,
     address: "2616 W Colorado Ave Suite 12, Colorado Springs, CO 80904",
     url: "https://www.facebook.com",
   },
@@ -44,6 +48,7 @@ const partners = [
     desc: "Woman-owned sustainability retailer offering bulk refill solutions.",
     perk: "7% off",
     icon: "♻️",
+    logo: "/conscious-living-logo.webp",
     address: "2616 W Colorado Ave Suite 9, Colorado Springs, CO 80904",
     url: "https://www.consciouslivingshop.com/",
   },
@@ -52,6 +57,7 @@ const partners = [
     desc: "Regional cuisine restaurant with a welcoming community atmosphere.",
     perk: "BOGO beer, wine & soda",
     icon: "🍽️",
+    logo: "/basecamp-logo.jpg",
     address: "2611 W Colorado Ave, Colorado Springs, CO 80904",
     url: "https://basecampcos.com",
   },
@@ -60,6 +66,7 @@ const partners = [
     desc: "South Texas snack shop with viral TikTok products and nationwide shipping.",
     perk: "7% off",
     icon: "🍬",
+    logo: "/crazee-craves-logo.png",
     address: "2616 W Colorado Ave Suite 16, Colorado Springs, CO 80904",
     url: "https://crazeecraves.square.site/",
   },
@@ -68,6 +75,7 @@ const partners = [
     desc: "Metaphysical shop offering herbs, crystals, Reiki, and tarot.",
     perk: "7% off",
     icon: "🦊",
+    logo: "/enchanted-fox-logo.jpg",
     address: "2636 W Colorado Ave, Colorado Springs, CO 80904",
     url: "https://enchantedfoxocc.com/",
   },
@@ -76,6 +84,7 @@ const partners = [
     desc: "Naturopathic care, apothecary, mental wellness, and spiritual community.",
     perk: "Member benefits",
     icon: "🌿",
+    logo: "/evoke-logo.webp",
     address: null,
     url: "/",
   },
@@ -225,7 +234,13 @@ export default function Loyalty() {
             {partners.map((p) => (
               <div key={p.name} className="bg-cream-50 border border-cream-200 rounded-2xl p-6 hover:border-brown-300 transition-all flex flex-col">
                 <div className="flex items-start justify-between mb-3">
-                  <span className="text-3xl">{p.icon}</span>
+                  {p.logo ? (
+                    <div className="w-16 h-16 relative flex-shrink-0">
+                      <Image src={p.logo} alt={p.name} fill className="object-contain" />
+                    </div>
+                  ) : (
+                    <span className="text-3xl">{p.icon}</span>
+                  )}
                   <span className="text-xs font-semibold text-brown-700 bg-brown-100 px-3 py-1 rounded-full">
                     {p.perk}
                   </span>
