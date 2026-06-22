@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   description:
     "Integrated healing for your whole self — naturopathic care, mental wellness, and spiritual integration in Colorado Springs, CO.",
   keywords: "naturopathic wellness Colorado Springs, holistic healing Colorado Springs, apothecary Colorado Springs, mental health wellness Colorado Springs, spiritual center Colorado Springs, integrated healing",
+  verification: {
+    google: "210d530e8905f9fe",
+  },
   openGraph: {
     title: "EVOKE Wellness | Integrated Healing",
     description: "Naturopathic care, mental wellness, and spiritual integration in Colorado Springs, CO.",
