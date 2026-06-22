@@ -33,10 +33,7 @@ export default function Blog() {
                   </Link>
                 </h2>
                 <p className="text-brown-500 leading-relaxed mb-5">{post.excerpt}</p>
-                <div className="flex items-center justify-between">
-                  <span className="text-xs text-brown-400">
-                    {new Date(post.date).toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })}
-                  </span>
+                <div className="flex justify-end">
                   <Link
                     href={`/blog/${post.slug}`}
                     className="text-sm font-medium text-brown-700 border-b border-brown-400 pb-0.5 hover:text-gold-600 hover:border-gold-600 transition-colors"
