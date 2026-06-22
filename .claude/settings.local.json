@@ -5,7 +5,8 @@
       "PowerShell(node --version)",
       "PowerShell(npm --version)",
       "PowerShell(Test-Path \"C:\\\\Program Files\\\\nodejs\\\\node.exe\"; Test-Path \"C:\\\\Program Files \\(x86\\)\\\\nodejs\\\\node.exe\"; Test-Path \"$env:APPDATA\\\\npm\\\\node.exe\")",
-      "PowerShell($env:PATH = \"C:\\\\Program Files\\\\nodejs;\" + $env:PATH; cd C:\\\\Users\\\\oliva\\\\Desktop\\\\evoke-website; node --version; npm install 2>&1)"
+      "PowerShell($env:PATH = \"C:\\\\Program Files\\\\nodejs;\" + $env:PATH; cd C:\\\\Users\\\\oliva\\\\Desktop\\\\evoke-website; node --version; npm install 2>&1)",
+      "PowerShell(try { $r = Invoke-WebRequest -Uri \"https://evokewellness.net/feed.xml\" -UseBasicParsing; $r.StatusCode } catch { $_.Exception.Message })"
     ]
   }
 }
