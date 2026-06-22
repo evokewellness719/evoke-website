@@ -165,6 +165,74 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Reviews */}
+      <section className="py-24 bg-cream-50">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="text-center mb-16">
+            <p className="text-gold-600 text-sm font-medium tracking-[0.2em] uppercase mb-3">Google Reviews</p>
+            <h2 className="font-serif text-4xl md:text-5xl text-brown-800 mb-3">What People Are Saying</h2>
+            <div className="flex items-center justify-center gap-2 mt-4">
+              <div className="flex gap-1">
+                {[...Array(5)].map((_, i) => (
+                  <svg key={i} className="w-5 h-5 text-gold-400 fill-current" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/></svg>
+                ))}
+              </div>
+              <span className="text-brown-600 font-medium">5.0 · 14 reviews on Google</span>
+            </div>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {[
+              {
+                name: "Katrin Renyer",
+                text: "Joe is the absolute best!! I have worked with homeopathic healers before, but his continued intention to broaden his knowledge and optimize his products shines through all of the rest. His teas have worked wonders on my hormonal imbalances, and I cannot wait to try his topicals, oils and yoni/face steamers next!",
+              },
+              {
+                name: "Rachelle Saint Jean",
+                text: "What a wonderful experience. Joe took his time to answer our questions and consult us on what would be best for our needs. He is knowledgeable, pays attention to detail, and very patient. EVOKE Wellness offers a great variety of natural roots, herbs, soaps, and more.",
+              },
+              {
+                name: "Caitlin Elizabeth",
+                text: "The owner, Joe, is incredibly knowledgeable. All the products are hand selected and packaged. Whether you are looking for herbs or whole person care with Joe and his team you'll definitely be in good hands.",
+              },
+              {
+                name: "Sara Vega",
+                text: "We had such a wonderful experience at Territory Days! We met Joe, the owner, and he was incredibly friendly, welcoming, and knowledgeable. It was clear right away how passionate he is about his products and about helping people.",
+              },
+              {
+                name: "Priscilla Ruano",
+                text: "Great products, reasonable priced. The owner definitely knows his stuff. Beautiful ceremonies.",
+              },
+              {
+                name: "Manuel Olivarez",
+                text: "Owner is very knowledgeable and knows his stuff. Thank you Joe for sharing your knowledge through your products.",
+              },
+              {
+                name: "Abbey Bengtson",
+                text: "Not only was I incredibly impressed with the wide variety of products and the quality of each item, but the founders are so knowledgeable and personable that I felt right at home and completely comfortable. HIGHLY recommend!",
+              },
+              {
+                name: "Dakotah Cutshall",
+                text: "I bought a handful of products and thoroughly enjoyed every single one of them! The quality of the salve, how refreshing and soft it has made my hands feel is not comparable to many store brand moisturizers at all.",
+              },
+              {
+                name: "Pixiestyxunicorn",
+                text: "Stunning and amazing and wonderful.",
+              },
+            ].map((r) => (
+              <div key={r.name} className="bg-white border border-cream-200 rounded-3xl p-7 flex flex-col gap-4 hover:border-gold-300 transition-all">
+                <div className="flex gap-1">
+                  {[...Array(5)].map((_, i) => (
+                    <svg key={i} className="w-4 h-4 text-gold-400 fill-current" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/></svg>
+                  ))}
+                </div>
+                <p className="text-brown-600 text-sm leading-relaxed flex-1 italic">"{r.text}"</p>
+                <p className="text-brown-800 font-semibold text-sm">— {r.name}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* CTA */}
       <section className="py-24 bg-cream-200">
         <div className="max-w-3xl mx-auto px-6 text-center">
