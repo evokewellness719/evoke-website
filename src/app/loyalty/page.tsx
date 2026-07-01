@@ -8,6 +8,15 @@ export const metadata = {
 
 const partners = [
   {
+    name: "EVOKE Wellness",
+    desc: "Naturopathic care, apothecary, mental wellness, and spiritual community.",
+    perk: "Member benefits",
+    icon: "🌿",
+    logo: "/evoke-logo.webp",
+    address: null,
+    url: "/",
+  },
+  {
     name: "The Queen's TEApothecary",
     desc: "A charming bouTEAque in Historic Old Colorado City offering artisan handcrafted organic teas, apothecary-style bulk herbs, bespoke tea accessories, and beautiful gifts by local artisans.",
     perk: "7% off",
@@ -105,15 +114,6 @@ const partners = [
     logo: "/Wabbit.jpg",
     address: "2421 W Colorado Ave, Colorado Springs, CO 80904",
     url: "https://whiterabbitbeads.com/",
-  },
-  {
-    name: "EVOKE Wellness",
-    desc: "Naturopathic care, apothecary, mental wellness, and spiritual community.",
-    perk: "Member benefits",
-    icon: "🌿",
-    logo: "/evoke-logo.webp",
-    address: null,
-    url: "/",
   },
 ];
 
