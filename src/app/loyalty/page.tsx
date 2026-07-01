@@ -8,6 +8,15 @@ export const metadata = {
 
 const partners = [
   {
+    name: "The Queen's TEApothecary",
+    desc: "A charming bouTEAque in Historic Old Colorado City offering artisan handcrafted organic teas, apothecary-style bulk herbs, bespoke tea accessories, and beautiful gifts by local artisans.",
+    perk: "7% off",
+    icon: "🫖",
+    logo: "/The Queens Teapothecary.png",
+    address: "2504 W Colorado Ave, Colorado Springs, CO 80904",
+    url: "https://www.TheQueensTEApothecary.com",
+  },
+  {
     name: "Caitspace LTD",
     desc: "Therapeutic arts studio led by Caitlin Elizabeth — offering workshops and creative healing sessions.",
     perk: "7% off",
