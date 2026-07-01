@@ -80,6 +80,15 @@ const partners = [
     url: "https://enchantedfoxocc.com/",
   },
   {
+    name: "Hookah Emporium",
+    desc: "Old Colorado City's local hookah and smoke shop with apparel, hardware kits, and vape products.",
+    perk: "7% off + exclusive member deals",
+    icon: "💨",
+    logo: null,
+    address: "2606 W Colorado Ave, Colorado Springs, CO 80904",
+    url: null,
+  },
+  {
     name: "White Rabbit Beads",
     desc: "Your go-to bead shop in Old Colorado City for over 35 years! Wide range of beads, beading supplies, unique charms, and chains. Offering repairs, private events, and classes.",
     perk: "7% off",
