@@ -279,16 +279,18 @@ export default function Loyalty() {
                     {p.address}
                   </p>
                 )}
-                <div className="mt-auto">
-                  <a
-                    href={p.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-block bg-brown-700 text-white text-xs font-medium px-4 py-2 rounded-full hover:bg-brown-800 transition-colors"
-                  >
-                    Visit {p.name} →
-                  </a>
-                </div>
+                {p.url && (
+                  <div className="mt-auto">
+                    <a
+                      href={p.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-block bg-brown-700 text-white text-xs font-medium px-4 py-2 rounded-full hover:bg-brown-800 transition-colors"
+                    >
+                      Visit {p.name} →
+                    </a>
+                  </div>
+                )}
               </div>
             ))}
           </div>
