@@ -80,6 +80,15 @@ const partners = [
     url: "https://enchantedfoxocc.com/",
   },
   {
+    name: "White Rabbit Beads",
+    desc: "Your go-to bead shop in Old Colorado City for over 35 years! Wide range of beads, beading supplies, unique charms, and chains. Offering repairs, private events, and classes.",
+    perk: "7% off",
+    icon: "🐇",
+    logo: "/Wabbit.jpg",
+    address: "2421 W Colorado Ave, Colorado Springs, CO 80904",
+    url: "https://whiterabbitbeads.com/",
+  },
+  {
     name: "EVOKE Wellness",
     desc: "Naturopathic care, apothecary, mental wellness, and spiritual community.",
     perk: "Member benefits",
