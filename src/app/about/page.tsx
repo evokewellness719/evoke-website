@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export const metadata = {
   title: "About | EVOKE Wellness",
   description: "Learn about EVOKE Wellness and our naturopathic approach to holistic healing.",
@@ -22,11 +24,15 @@ export default function About() {
       {/* Mission */}
       <section className="py-20 bg-cream-50">
         <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
-          <div className="aspect-square rounded-3xl bg-gradient-to-br from-cream-100 to-brown-100 flex items-center justify-center">
-            <div className="text-center p-10">
-              <div className="text-7xl mb-4">⚗️</div>
-              <p className="font-serif text-brown-600 italic text-base">The Modern Apothecary</p>
-            </div>
+          <div className="aspect-square rounded-3xl overflow-hidden relative">
+            <Image
+              src="/joe-olivarez.jpg"
+              alt="Joe Olivarez, founder of EVOKE Wellness"
+              fill
+              className="object-cover"
+              sizes="(min-width: 768px) 50vw, 100vw"
+              priority
+            />
           </div>
           <div>
             <p className="text-gold-600 text-sm font-medium tracking-[0.2em] uppercase mb-3">Our Mission</p>
