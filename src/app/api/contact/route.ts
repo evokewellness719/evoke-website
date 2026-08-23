@@ -11,13 +11,18 @@ export async function POST(request: Request) {
   }
 
   try {
-    await resend.emails.send({
+    const { error } = await resend.emails.send({
       from: "EVOKE Wellness Contact Form <contact@evokewellness.net>",
       to: process.env.CONTACT_TO_EMAIL ?? "info@evokewellness.net",
       replyTo: email,
       subject: `[Contact Form] ${subject || "General Inquiry"} — ${firstName} ${lastName}`,
       text: `Name: ${firstName} ${lastName}\nEmail: ${email}\nSubject: ${subject || "General Inquiry"}\n\n${message}`,
     });
+
+    if (error) {
+      console.error("Contact form send failed:", error);
+      return NextResponse.json({ error: "Failed to send message." }, { status: 500 });
+    }
 
     return NextResponse.json({ ok: true });
   } catch (err) {
