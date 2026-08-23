@@ -4,11 +4,37 @@ import { useState } from "react";
 
 export default function Contact() {
   const [submitted, setSubmitted] = useState(false);
+  const [sending, setSending] = useState(false);
+  const [error, setError] = useState("");
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    // TODO: wire up to your email service (Resend, Formspree, etc.)
-    setSubmitted(true);
+    setSending(true);
+    setError("");
+
+    const formData = new FormData(e.currentTarget);
+    const payload = {
+      firstName: formData.get("firstName"),
+      lastName: formData.get("lastName"),
+      email: formData.get("email"),
+      subject: formData.get("subject"),
+      message: formData.get("message"),
+    };
+
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      });
+
+      if (!res.ok) throw new Error("Failed to send");
+      setSubmitted(true);
+    } catch {
+      setError("Something went wrong. Please try again or email us directly.");
+    } finally {
+      setSending(false);
+    }
   };
 
   return (
@@ -115,6 +141,7 @@ export default function Contact() {
                     <label className="block text-sm font-medium text-brown-700 mb-2">First Name</label>
                     <input
                       type="text"
+                      name="firstName"
                       required
                       className="w-full border border-cream-300 rounded-xl px-4 py-3 text-sm text-brown-700 focus:outline-none focus:border-brown-400 bg-white"
                       placeholder="Jane"
@@ -124,6 +151,7 @@ export default function Contact() {
                     <label className="block text-sm font-medium text-brown-700 mb-2">Last Name</label>
                     <input
                       type="text"
+                      name="lastName"
                       required
                       className="w-full border border-cream-300 rounded-xl px-4 py-3 text-sm text-brown-700 focus:outline-none focus:border-brown-400 bg-white"
                       placeholder="Doe"
@@ -134,6 +162,7 @@ export default function Contact() {
                   <label className="block text-sm font-medium text-brown-700 mb-2">Email</label>
                   <input
                     type="email"
+                    name="email"
                     required
                     className="w-full border border-cream-300 rounded-xl px-4 py-3 text-sm text-brown-700 focus:outline-none focus:border-brown-400 bg-white"
                     placeholder="jane@example.com"
@@ -141,7 +170,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <label className="block text-sm font-medium text-brown-700 mb-2">Subject</label>
-                  <select className="w-full border border-cream-300 rounded-xl px-4 py-3 text-sm text-brown-700 focus:outline-none focus:border-brown-400 bg-white">
+                  <select name="subject" className="w-full border border-cream-300 rounded-xl px-4 py-3 text-sm text-brown-700 focus:outline-none focus:border-brown-400 bg-white">
                     <option>General Inquiry</option>
                     <option>Appointment Question</option>
                     <option>Product Question</option>
@@ -151,17 +180,22 @@ export default function Contact() {
                 <div>
                   <label className="block text-sm font-medium text-brown-700 mb-2">Message</label>
                   <textarea
+                    name="message"
                     required
                     rows={5}
                     className="w-full border border-cream-300 rounded-xl px-4 py-3 text-sm text-brown-700 focus:outline-none focus:border-brown-400 bg-white resize-none"
                     placeholder="Tell us what's on your mind..."
                   />
                 </div>
+                {error && (
+                  <p className="text-sm text-red-600">{error}</p>
+                )}
                 <button
                   type="submit"
-                  className="w-full bg-brown-700 text-white font-medium py-4 rounded-full hover:bg-brown-800 transition-all text-sm tracking-wide"
+                  disabled={sending}
+                  className="w-full bg-brown-700 text-white font-medium py-4 rounded-full hover:bg-brown-800 transition-all text-sm tracking-wide disabled:opacity-60"
                 >
-                  Send Message
+                  {sending ? "Sending..." : "Send Message"}
                 </button>
               </form>
             )}
