@@ -68,7 +68,7 @@ export default function Contact() {
                   <p className="text-sm font-medium text-brown-700 mb-1">Social</p>
                   <div className="flex gap-4">
                     <a
-                      href="https://instagram.com"
+                      href="https://www.instagram.com/evoke_wellness719/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-brown-600 hover:text-gold-600 transition-colors text-sm"
@@ -76,7 +76,7 @@ export default function Contact() {
                       Instagram
                     </a>
                     <a
-                      href="https://facebook.com"
+                      href="https://www.facebook.com/profile.php?id=61580707843038"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-brown-600 hover:text-gold-600 transition-colors text-sm"
