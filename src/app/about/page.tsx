@@ -33,6 +33,10 @@ export default function About() {
               sizes="(min-width: 768px) 50vw, 100vw"
               priority
             />
+            <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-brown-900/80 to-transparent px-6 py-5">
+              <p className="font-serif text-white text-xl">Joe Olivarez</p>
+              <p className="text-cream-100 text-sm tracking-wide">Founder, EVOKE Wellness</p>
+            </div>
           </div>
           <div>
             <p className="text-gold-600 text-sm font-medium tracking-[0.2em] uppercase mb-3">Our Mission</p>
