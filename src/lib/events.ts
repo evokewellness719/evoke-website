@@ -33,7 +33,7 @@ export const events: Event[] = [
   {
     title: "Painting Night with Caitspace",
     date: "2026-09-23",
-    time: null,
+    time: "6:00 PM",
     venue: "The Stache Spot",
     address: "605 W Colorado Ave",
     city: "Colorado Springs, CO",
