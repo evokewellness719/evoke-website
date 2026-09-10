@@ -11,6 +11,7 @@ const explore = [
 ];
 
 const community = [
+  { href: "/events", label: "Events" },
   { href: "/loyalty", label: "The Local Loyalty Link" },
   { href: "/loyalty/partner", label: "Partner With Us" },
   { href: "/faq", label: "FAQ" },

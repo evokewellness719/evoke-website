@@ -14,6 +14,7 @@ export default function sitemap() {
     { url: `${base}/loyalty`, lastModified: new Date(), priority: 0.8 },
     { url: `${base}/loyalty/partner`, lastModified: new Date(), priority: 0.7 },
     { url: `${base}/blog`, lastModified: new Date(), priority: 0.9 },
+    { url: `${base}/events`, lastModified: new Date(), priority: 0.8 },
     { url: `${base}/contact`, lastModified: new Date(), priority: 0.7 },
     { url: `${base}/faq`, lastModified: new Date(), priority: 0.6 },
   ];

@@ -1,4 +1,7 @@
 import Link from "next/link";
+import { getUpcomingEvents, formatEventDate, formatMonth, mapsUrl } from "@/lib/events";
+
+export const revalidate = 3600;
 
 const BOOK_URL = "https://secure.gethealthie.com/users/sign_in";
 
@@ -73,6 +76,8 @@ function Stars({ className = "w-4 h-4" }: { className?: string }) {
 }
 
 export default function Home() {
+  const upcoming = getUpcomingEvents().slice(0, 4);
+
   return (
     <>
       {/* Hero */}
@@ -139,8 +144,44 @@ export default function Home() {
         </div>
       </section>
 
+      {/* This month */}
+      {upcoming.length > 0 && (
+        <section className="py-24 bg-cream-50">
+          <div className="max-w-6xl mx-auto px-6">
+            <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-4 mb-12">
+              <div>
+                <p className="text-gold-600 text-xs font-medium tracking-[0.25em] uppercase mb-4">{formatMonth(upcoming[0].date)}</p>
+                <h2 className="font-serif text-4xl md:text-5xl text-brown-800">This month at EVOKE</h2>
+              </div>
+              <Link href="/events" className="text-sm font-medium text-brown-800 hover:text-gold-600 transition-colors">
+                All events →
+              </Link>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              {upcoming.map((e) => (
+                <article key={`${e.date}-${e.title}`} className="bg-white border border-cream-200 rounded-2xl p-7 flex flex-col">
+                  <p className="font-serif text-2xl text-brown-800 leading-none">{formatEventDate(e.date, { weekday: true })}</p>
+                  <p className="text-sm text-brown-500 mt-2 mb-5">{e.time ?? "Time to be announced"}</p>
+                  <h3 className="font-serif text-xl text-brown-800 mb-2">{e.title}</h3>
+                  <p className="text-brown-600 text-sm leading-relaxed flex-1">{e.description}</p>
+                  <a
+                    href={mapsUrl(e)}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-6 text-sm text-brown-800 hover:text-gold-600 transition-colors"
+                  >
+                    <span className="font-medium">{e.venue}</span>
+                    <span className="text-brown-500"> · {e.address} →</span>
+                  </a>
+                </article>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* Pillars */}
-      <section className="py-24 bg-cream-50">
+      <section className="py-24 bg-white">
         <div className="max-w-5xl mx-auto px-6">
           <div className="text-center mb-14">
             <p className="text-gold-600 text-xs font-medium tracking-[0.25em] uppercase mb-4">Our Promise</p>
@@ -164,7 +205,7 @@ export default function Home() {
       </section>
 
       {/* Reviews */}
-      <section className="py-24 bg-white">
+      <section className="py-24 bg-cream-50">
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center mb-14">
             <p className="text-gold-600 text-xs font-medium tracking-[0.25em] uppercase mb-4">Google Reviews</p>
@@ -176,7 +217,7 @@ export default function Home() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {reviews.map((r) => (
-              <figure key={r.name} className="bg-cream-50 border border-cream-200 rounded-2xl p-7 flex flex-col">
+              <figure key={r.name} className="bg-white border border-cream-200 rounded-2xl p-7 flex flex-col">
                 <Stars />
                 <blockquote className="text-brown-600 text-sm leading-relaxed mt-4 flex-1">&ldquo;{r.text}&rdquo;</blockquote>
                 <figcaption className="text-brown-800 text-sm font-medium mt-5">{r.name}</figcaption>
@@ -187,9 +228,9 @@ export default function Home() {
       </section>
 
       {/* Loyalty teaser */}
-      <section className="py-20 bg-cream-50">
+      <section className="py-20 bg-white">
         <div className="max-w-6xl mx-auto px-6">
-          <div className="bg-white border border-cream-200 rounded-2xl px-8 py-10 md:px-12 flex flex-col md:flex-row md:items-center gap-8">
+          <div className="bg-cream-50 border border-cream-200 rounded-2xl px-8 py-10 md:px-12 flex flex-col md:flex-row md:items-center gap-8">
             <div className="flex-1">
               <p className="text-gold-600 text-xs font-medium tracking-[0.2em] uppercase mb-3">Community</p>
               <h2 className="font-serif text-3xl text-brown-800 mb-3">The Local Loyalty Link</h2>
@@ -208,7 +249,7 @@ export default function Home() {
       </section>
 
       {/* CTA */}
-      <section className="py-28 bg-white">
+      <section className="py-28 bg-cream-50">
         <div className="max-w-2xl mx-auto px-6 text-center">
           <h2 className="font-serif text-4xl md:text-5xl text-brown-800 mb-5">Ready to begin?</h2>
           <p className="text-brown-600 leading-relaxed mb-10">
