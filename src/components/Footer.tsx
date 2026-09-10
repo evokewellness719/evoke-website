@@ -67,7 +67,7 @@ export default function Footer() {
           <h4 className="text-xs font-semibold tracking-[0.2em] uppercase text-brown-800 mb-4">Visit</h4>
           <ul className="space-y-2.5 text-sm text-brown-600">
             <li>2627 W Colorado Ave, inside Mush Love, Tee<br />Colorado Springs, CO 80904</li>
-            <li>107 E N Interstate-30 Service Rd<br />Cumby, TX 75433</li>
+            <li>107 E N Interstate-30 Service Rd<br />Cumby, TX 75433 <span className="text-brown-500">· coming soon</span></li>
             <li><a href="tel:+17193234691" className={linkClass}>(719) 323-4691</a></li>
             <li><a href="mailto:info@evokewellness.net" className={linkClass}>info@evokewellness.net</a></li>
           </ul>

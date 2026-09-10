@@ -39,7 +39,7 @@ const items = [
     value: "107 E N Interstate-30 Service Rd",
     href: "https://maps.google.com/?q=107+E+N+Interstate+30+Service+Rd+Cumby+TX+75433",
     external: true,
-    note: "Cumby, TX 75433",
+    note: "Cumby, TX 75433 · Coming soon",
   },
 ];
 
