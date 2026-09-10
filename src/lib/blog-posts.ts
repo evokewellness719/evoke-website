@@ -31,7 +31,7 @@ export const blogPosts: BlogPost[] = [
 <p>At EVOKE, integration isn't a buzzword on a website. It's the foundation of everything we do. We bring three things together under one roof:</p>
 
 <ul>
-  <li><strong>The Modern Apothecary</strong> — botanical supplements, tinctures, and wellness products rooted in ancient herbal wisdom and backed by modern understanding of the body.</li>
+  <li><strong>Shop EVOKE Wellness</strong> — handcrafted herbal teas, tinctures, topicals, and wellness products rooted in ancient herbal wisdom and backed by modern understanding of the body.</li>
   <li><strong>Mental Health & Wellness</strong> — led by Caitlin, a QBHA specializing in therapeutic arts and neurographic art, alongside wellness coaching that honors the mind-body connection.</li>
   <li><strong>Rooted in Integration</strong> — our spiritual center and community, radically inclusive of all faiths, backgrounds, and practices. Because your spirit matters too.</li>
 </ul>
@@ -225,7 +225,7 @@ export const blogPosts: BlogPost[] = [
 <h2>A Spiritual Note</h2>
 <p>In many wisdom traditions, dreams are not random. They are a language — the language the deeper self speaks when the noise of waking life goes quiet. Calea zacatechichi is an invitation to listen more carefully. If you're at a crossroads, processing something deep, or simply hungry for more connection with your own inner world, this plant may have something to say to you.</p>
 
-<p><em>This herb is available at The Modern Apothecary by EVOKE. Ask us about working with it intentionally.</em></p>
+<p><em>This herb is available at <a href="https://shopevoke.net/">Shop EVOKE Wellness</a>. Ask us about working with it intentionally.</em></p>
     `,
   },
   {
@@ -463,7 +463,7 @@ export const blogPosts: BlogPost[] = [
 <h2>A Spiritual Note</h2>
 <p>Bitterness gets a bad reputation. In food, in life, in herbs — we're conditioned to avoid it. But bitterness is information. It activates our digestive system, signals our liver, and wakes up our taste buds. Horehound asks us to sit with what is uncomfortable, to let it work on us, and to trust that what tastes hard might be exactly what we need. That's not just herbal wisdom. That's life wisdom.</p>
 
-<p><em>Horehound is available at The Modern Apothecary by EVOKE in loose leaf, tincture, and syrup form.</em></p>
+<p><em>Horehound is available at <a href="https://shopevoke.net/">Shop EVOKE Wellness</a> in loose leaf, tincture, and syrup form.</em></p>
     `,
   },
   {
@@ -892,7 +892,7 @@ export const blogPosts: BlogPost[] = [
 <h2>A Spiritual Note</h2>
 <p>Nettle teaches a lesson that plants are often better at delivering than people: approach something without respect, and it will sting you. Approach it with care, and it will nourish you completely. The plants that protect themselves most fiercely often give the most generously once trust is established. There are people like that too. And situations. And places. Not everything that stings is trying to hurt you.</p>
 
-<p><em>Nettle is available at The Modern Apothecary by EVOKE in loose leaf, tincture, and capsule form.</em></p>
+<p><em>Nettle is available at <a href="https://shopevoke.net/">Shop EVOKE Wellness</a> in loose leaf, tincture, and capsule form.</em></p>
     `,
   },
 ].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());

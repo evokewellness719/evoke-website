@@ -1,35 +1,29 @@
 import Link from "next/link";
 
-const facets = [
+const BOOK_URL = "https://secure.gethealthie.com/users/sign_in";
+
+const offerings = [
   {
-    href: "/apothecary",
-    label: "The Modern Apothecary",
-    tag: "Botanicals & Products",
-    description:
-      "Curated botanical supplements, tinctures, and wellness products rooted in ancient wisdom and backed by clinical evidence.",
-    icon: "⚗️",
-    cta: "Shop the Apothecary",
-    bg: "bg-cream-50 border-cream-200 hover:border-cream-400",
+    href: "https://shopevoke.net/",
+    external: true,
+    eyebrow: "Shop",
+    title: "Shop EVOKE Wellness",
+    desc: "Handcrafted herbal teas, tinctures, topicals, and wellness products — plus the new EVOKE bookstore.",
+    cta: "Visit the shop",
   },
   {
-    href: "/mental-health",
-    label: "Mental Health & Wellness",
-    tag: "Therapy & Support",
-    description:
-      "Compassionate, integrative mental health support that honors the connection between mind, body, and spirit.",
-    icon: "🧠",
-    cta: "Explore Services",
-    bg: "bg-brown-50 border-brown-200 hover:border-brown-400",
+    href: "/services",
+    eyebrow: "Services",
+    title: "Naturopathic & Mental Wellness",
+    desc: "Personalized consultations, therapeutic arts, and wellness coaching that honor body, mind, and spirit together.",
+    cta: "Explore services",
   },
   {
     href: "/rooted",
-    label: "Rooted in Integration",
-    tag: "Spiritual Center",
-    description:
-      "Our spiritual home — a church and community space for those seeking integration of faith, healing, and wholeness.",
-    icon: "🌱",
-    cta: "Visit Our Church",
-    bg: "bg-gold-50 border-gold-200 hover:border-gold-300",
+    eyebrow: "Community",
+    title: "Rooted in Integration",
+    desc: "Our spiritual home — a welcoming church and community for everyone, whatever you practice or where you've been.",
+    cta: "Learn more",
   },
 ];
 
@@ -39,225 +33,195 @@ const pillars = [
   { label: "Secure", desc: "A judgment-free space built on trust, privacy, and compassion." },
 ];
 
+const reviews = [
+  {
+    name: "Katrin Renyer",
+    text: "Joe is the absolute best. His continued intention to broaden his knowledge and optimize his products shines through all of the rest. His teas have worked wonders on my hormonal imbalances.",
+  },
+  {
+    name: "Rachelle Saint Jean",
+    text: "What a wonderful experience. Joe took his time to answer our questions and consult us on what would be best for our needs. Knowledgeable, attentive to detail, and very patient.",
+  },
+  {
+    name: "Caitlin Elizabeth",
+    text: "The owner, Joe, is incredibly knowledgeable. All the products are hand selected and packaged. Whether you're looking for herbs or whole-person care, you'll be in good hands.",
+  },
+  {
+    name: "Abbey Bengtson",
+    text: "Incredibly impressed with the wide variety of products and the quality of each item. The founders are so knowledgeable and personable that I felt right at home. Highly recommend.",
+  },
+  {
+    name: "Sara Vega",
+    text: "We met Joe at Territory Days and he was incredibly friendly, welcoming, and knowledgeable. It was clear right away how passionate he is about his products and about helping people.",
+  },
+  {
+    name: "Priscilla Ruano",
+    text: "Great products, reasonably priced. The owner definitely knows his stuff. Beautiful ceremonies.",
+  },
+];
+
+function Stars({ className = "w-4 h-4" }: { className?: string }) {
+  return (
+    <div className="flex gap-0.5" aria-label="5 out of 5 stars">
+      {[...Array(5)].map((_, i) => (
+        <svg key={i} className={`${className} text-gold-400 fill-current`} viewBox="0 0 20 20">
+          <path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z" />
+        </svg>
+      ))}
+    </div>
+  );
+}
+
 export default function Home() {
   return (
     <>
       {/* Hero */}
-      <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-b from-cream-200 to-cream-50" />
-        <div className="absolute top-32 right-0 w-96 h-96 rounded-full bg-gold-100/40 blur-3xl" />
-        <div className="absolute bottom-0 left-0 w-80 h-80 rounded-full bg-brown-100/40 blur-3xl" />
-
-        <div className="relative z-10 max-w-4xl mx-auto px-6 text-center">
-          <p className="text-gold-600 text-sm font-medium tracking-[0.3em] uppercase mb-6">
-            EVOKE Wellness
+      <section className="pt-44 pb-28 bg-cream-50">
+        <div className="max-w-3xl mx-auto px-6 text-center">
+          <p className="text-gold-600 text-xs font-medium tracking-[0.3em] uppercase mb-6">
+            EVOKE Wellness · Colorado Springs
           </p>
-          <h1 className="font-serif text-5xl md:text-7xl font-semibold text-brown-800 leading-tight mb-6">
-            Integrated
-            <br />
-            <em className="text-gold-600 not-italic">Healing</em>
+          <h1 className="font-serif text-5xl md:text-7xl text-brown-800 leading-[1.05] mb-6">
+            Integrated Healing
           </h1>
-          <p className="text-brown-600 text-lg md:text-xl leading-relaxed max-w-2xl mx-auto mb-10">
-            We believe true healing touches every part of you — body, mind, and spirit. EVOKE Wellness brings naturopathic care, mental wellness, and spiritual integration together under one roof.
+          <p className="text-brown-600 text-lg md:text-xl leading-relaxed max-w-xl mx-auto mb-10">
+            Naturopathic care, mental wellness, and spiritual community — brought together so every part of you is cared for.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <a
-              href="https://secure.gethealthie.com/users/sign_in"
+              href={BOOK_URL}
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-brown-700 text-white font-medium px-8 py-4 rounded-full hover:bg-brown-800 transition-all hover:shadow-lg text-sm tracking-wide"
+              className="bg-brown-700 text-white text-sm font-medium px-8 py-4 rounded-full hover:bg-brown-800 transition-colors"
             >
               Book an Appointment
             </a>
-            <Link
-              href="/about"
-              className="border border-brown-400 text-brown-700 font-medium px-8 py-4 rounded-full hover:bg-brown-50 transition-all text-sm tracking-wide"
+            <a
+              href="https://shopevoke.net/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="border border-brown-300 text-brown-700 text-sm font-medium px-8 py-4 rounded-full hover:border-brown-500 transition-colors"
             >
-              Learn More
-            </Link>
+              Shop EVOKE Wellness
+            </a>
           </div>
-        </div>
-
-        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
-          <div className="w-0.5 h-8 bg-brown-300 mx-auto" />
         </div>
       </section>
 
-      {/* 3 Facets */}
-      <section className="py-24 bg-cream-50">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-16">
-            <p className="text-gold-600 text-sm font-medium tracking-[0.2em] uppercase mb-3">What We Offer</p>
-            <h2 className="font-serif text-4xl md:text-5xl text-brown-800">Three Paths, One Integration</h2>
-            <p className="text-brown-500 mt-4 max-w-xl mx-auto leading-relaxed">
-              EVOKE Wellness is home to three interconnected practices — each serving a different dimension of your well-being, all working together.
-            </p>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {facets.map((f) => (
-              <Link
-                key={f.href}
-                href={f.href}
-                className={`group rounded-3xl p-8 border-2 transition-all ${f.bg} flex flex-col`}
-              >
-                <div className="text-4xl mb-5">{f.icon}</div>
-                <p className="text-xs font-medium tracking-widest uppercase text-gold-600 mb-2">{f.tag}</p>
-                <h3 className="font-serif text-2xl text-brown-800 mb-3 group-hover:text-sage-900">{f.label}</h3>
-                <p className="text-brown-500 text-sm leading-relaxed flex-1">{f.description}</p>
-                <span className="mt-6 text-sm font-medium text-brown-700 border-b border-brown-400 pb-0.5 self-start group-hover:text-gold-600 group-hover:border-gold-600 transition-colors">
-                  {f.cta} →
-                </span>
-              </Link>
-            ))}
+      {/* Offerings */}
+      <section className="py-24 bg-white">
+        <div className="max-w-6xl mx-auto px-6">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {offerings.map((o) => {
+              const inner = (
+                <>
+                  <p className="text-gold-600 text-xs font-medium tracking-[0.2em] uppercase mb-4">{o.eyebrow}</p>
+                  <h2 className="font-serif text-2xl text-brown-800 mb-3">{o.title}</h2>
+                  <p className="text-brown-600 text-sm leading-relaxed flex-1">{o.desc}</p>
+                  <span className="mt-8 text-sm font-medium text-brown-800 group-hover:text-gold-600 transition-colors">
+                    {o.cta} →
+                  </span>
+                </>
+              );
+              const cls =
+                "group flex flex-col bg-cream-50 border border-cream-200 rounded-2xl p-8 hover:border-brown-300 transition-colors";
+              return o.external ? (
+                <a key={o.title} href={o.href} target="_blank" rel="noopener noreferrer" className={cls}>
+                  {inner}
+                </a>
+              ) : (
+                <Link key={o.title} href={o.href} className={cls}>
+                  {inner}
+                </Link>
+              );
+            })}
           </div>
         </div>
       </section>
 
       {/* Pillars */}
-      <section className="py-20 bg-cream-50">
+      <section className="py-24 bg-cream-50">
         <div className="max-w-5xl mx-auto px-6">
-          <div className="text-center mb-12">
-            <h2 className="font-serif text-3xl text-brown-800">Integration Starts Here</h2>
+          <div className="text-center mb-14">
+            <p className="text-gold-600 text-xs font-medium tracking-[0.25em] uppercase mb-4">Our Promise</p>
+            <h2 className="font-serif text-4xl md:text-5xl text-brown-800">Seen. Supported. Secure.</h2>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-6">
             {pillars.map((p) => (
-              <div key={p.label} className="text-center p-8 rounded-2xl bg-cream-50 border border-cream-200">
-                <h3 className="font-serif text-4xl font-semibold text-brown-700 mb-3">{p.label}</h3>
-                <p className="text-brown-500 text-sm leading-relaxed">{p.desc}</p>
+              <div key={p.label} className="text-center md:border-l md:border-cream-300 md:first:border-0 px-6">
+                <h3 className="font-serif text-3xl text-brown-800 mb-3">{p.label}</h3>
+                <p className="text-brown-600 text-sm leading-relaxed max-w-xs mx-auto">{p.desc}</p>
               </div>
             ))}
           </div>
-        </div>
-      </section>
-
-      {/* About teaser */}
-      <section className="py-24 bg-cream-50">
-        <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
-          <div>
-            <p className="text-gold-600 text-sm font-medium tracking-[0.2em] uppercase mb-3">Our Philosophy</p>
-            <h2 className="font-serif text-4xl md:text-5xl text-brown-800 mb-6 leading-tight">
-              Healing the<br />Whole Person
-            </h2>
-            <p className="text-brown-600 leading-relaxed mb-5">
-              At EVOKE Wellness, integration isn't a buzzword — it's the foundation. We bring naturopathic medicine, mental wellness, and spiritual healing into conversation with each other, because your body, mind, and spirit don't operate in isolation.
-            </p>
-            <p className="text-brown-600 leading-relaxed mb-8">
-              Every path forward is crafted specifically for you — your history, your body, your goals, your whole self.
-            </p>
-            <Link
-              href="/about"
-              className="inline-flex items-center gap-2 text-brown-700 font-medium border-b border-brown-400 pb-0.5 hover:text-gold-600 hover:border-gold-600 transition-colors text-sm"
-            >
-              Learn more about us →
+          <p className="text-center text-brown-600 max-w-2xl mx-auto mt-14 leading-relaxed">
+            Integration isn&apos;t a buzzword here — it&apos;s the foundation. Your body, mind, and spirit don&apos;t operate in isolation, so neither does your care.{" "}
+            <Link href="/about" className="text-brown-800 underline underline-offset-4 decoration-brown-300 hover:decoration-gold-600">
+              Read our story
             </Link>
-          </div>
-          <div className="relative">
-            <div className="aspect-square rounded-3xl bg-gradient-to-br from-cream-100 to-brown-50 flex items-center justify-center border border-cream-200">
-              <div className="text-center p-12">
-                <div className="text-6xl mb-4">🌿</div>
-                <p className="font-serif text-brown-700 text-lg italic leading-relaxed">
-                  "A space where you are seen, supported, and secure."
-                </p>
-              </div>
-            </div>
-            <div className="absolute -bottom-4 -right-4 w-28 h-28 rounded-2xl bg-gold-100 -z-10" />
-          </div>
+          </p>
         </div>
       </section>
 
       {/* Reviews */}
-      <section className="py-24 bg-cream-50">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-16">
-            <p className="text-gold-600 text-sm font-medium tracking-[0.2em] uppercase mb-3">Google Reviews</p>
-            <h2 className="font-serif text-4xl md:text-5xl text-brown-800 mb-3">What People Are Saying</h2>
-            <div className="flex items-center justify-center gap-2 mt-4">
-              <div className="flex gap-1">
-                {[...Array(5)].map((_, i) => (
-                  <svg key={i} className="w-5 h-5 text-gold-400 fill-current" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/></svg>
-                ))}
-              </div>
-              <span className="text-brown-600 font-medium">5.0 · 14 reviews on Google</span>
+      <section className="py-24 bg-white">
+        <div className="max-w-6xl mx-auto px-6">
+          <div className="text-center mb-14">
+            <p className="text-gold-600 text-xs font-medium tracking-[0.25em] uppercase mb-4">Google Reviews</p>
+            <h2 className="font-serif text-4xl md:text-5xl text-brown-800 mb-5">What People Are Saying</h2>
+            <div className="flex items-center justify-center gap-3">
+              <Stars className="w-5 h-5" />
+              <span className="text-brown-600 text-sm">5.0 · 14 reviews</span>
             </div>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {[
-              {
-                name: "Katrin Renyer",
-                text: "Joe is the absolute best!! I have worked with homeopathic healers before, but his continued intention to broaden his knowledge and optimize his products shines through all of the rest. His teas have worked wonders on my hormonal imbalances, and I cannot wait to try his topicals, oils and yoni/face steamers next!",
-              },
-              {
-                name: "Rachelle Saint Jean",
-                text: "What a wonderful experience. Joe took his time to answer our questions and consult us on what would be best for our needs. He is knowledgeable, pays attention to detail, and very patient. EVOKE Wellness offers a great variety of natural roots, herbs, soaps, and more.",
-              },
-              {
-                name: "Caitlin Elizabeth",
-                text: "The owner, Joe, is incredibly knowledgeable. All the products are hand selected and packaged. Whether you are looking for herbs or whole person care with Joe and his team you'll definitely be in good hands.",
-              },
-              {
-                name: "Sara Vega",
-                text: "We had such a wonderful experience at Territory Days! We met Joe, the owner, and he was incredibly friendly, welcoming, and knowledgeable. It was clear right away how passionate he is about his products and about helping people.",
-              },
-              {
-                name: "Priscilla Ruano",
-                text: "Great products, reasonable priced. The owner definitely knows his stuff. Beautiful ceremonies.",
-              },
-              {
-                name: "Manuel Olivarez",
-                text: "Owner is very knowledgeable and knows his stuff. Thank you Joe for sharing your knowledge through your products.",
-              },
-              {
-                name: "Abbey Bengtson",
-                text: "Not only was I incredibly impressed with the wide variety of products and the quality of each item, but the founders are so knowledgeable and personable that I felt right at home and completely comfortable. HIGHLY recommend!",
-              },
-              {
-                name: "Dakotah Cutshall",
-                text: "I bought a handful of products and thoroughly enjoyed every single one of them! The quality of the salve, how refreshing and soft it has made my hands feel is not comparable to many store brand moisturizers at all.",
-              },
-              {
-                name: "Pixiestyxunicorn",
-                text: "Stunning and amazing and wonderful.",
-              },
-            ].map((r) => (
-              <div key={r.name} className="bg-white border border-cream-200 rounded-3xl p-7 flex flex-col gap-4 hover:border-gold-300 transition-all">
-                <div className="flex gap-1">
-                  {[...Array(5)].map((_, i) => (
-                    <svg key={i} className="w-4 h-4 text-gold-400 fill-current" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/></svg>
-                  ))}
-                </div>
-                <p className="text-brown-600 text-sm leading-relaxed flex-1 italic">"{r.text}"</p>
-                <p className="text-brown-800 font-semibold text-sm">— {r.name}</p>
-              </div>
+            {reviews.map((r) => (
+              <figure key={r.name} className="bg-cream-50 border border-cream-200 rounded-2xl p-7 flex flex-col">
+                <Stars />
+                <blockquote className="text-brown-600 text-sm leading-relaxed mt-4 flex-1">&ldquo;{r.text}&rdquo;</blockquote>
+                <figcaption className="text-brown-800 text-sm font-medium mt-5">{r.name}</figcaption>
+              </figure>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Loyalty teaser */}
+      <section className="py-20 bg-cream-50">
+        <div className="max-w-6xl mx-auto px-6">
+          <div className="bg-white border border-cream-200 rounded-2xl px-8 py-10 md:px-12 flex flex-col md:flex-row md:items-center gap-8">
+            <div className="flex-1">
+              <p className="text-gold-600 text-xs font-medium tracking-[0.2em] uppercase mb-3">Community</p>
+              <h2 className="font-serif text-3xl text-brown-800 mb-3">The Local Loyalty Link</h2>
+              <p className="text-brown-600 text-sm leading-relaxed max-w-xl">
+                A free digital pass for Colorado locals. Scan once, keep it in your wallet, and unlock rewards at local businesses across Old Colorado City.
+              </p>
+            </div>
+            <Link
+              href="/loyalty"
+              className="self-start md:self-center border border-brown-300 text-brown-700 text-sm font-medium px-7 py-3.5 rounded-full hover:border-brown-500 transition-colors whitespace-nowrap"
+            >
+              See the partners →
+            </Link>
           </div>
         </div>
       </section>
 
       {/* CTA */}
-      <section className="py-24 bg-cream-200">
-        <div className="max-w-3xl mx-auto px-6 text-center">
-          <h2 className="font-serif text-4xl md:text-5xl mb-6">
-            Ready to Begin Your Integrated Healing Journey?
-          </h2>
-          <p className="text-brown-600 text-lg mb-10 leading-relaxed">
-            Take the first step. Book a consultation and let us walk the path of integrated healing with you.
+      <section className="py-28 bg-white">
+        <div className="max-w-2xl mx-auto px-6 text-center">
+          <h2 className="font-serif text-4xl md:text-5xl text-brown-800 mb-5">Ready to begin?</h2>
+          <p className="text-brown-600 leading-relaxed mb-10">
+            Book a consultation and let us walk the path of integrated healing with you.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-              href="https://secure.gethealthie.com/users/sign_in"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-brown-700 text-white font-semibold px-10 py-4 rounded-full hover:bg-brown-800 transition-all text-sm tracking-wide"
-            >
-              Schedule a Consultation
-            </a>
-            <Link
-              href="/contact"
-              className="border border-brown-400 text-brown-700 font-medium px-10 py-4 rounded-full hover:bg-white/10 transition-all text-sm tracking-wide"
-            >
-              Get in Touch
-            </Link>
-          </div>
+          <a
+            href={BOOK_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-brown-700 text-white text-sm font-medium px-10 py-4 rounded-full hover:bg-brown-800 transition-colors"
+          >
+            Schedule a Consultation
+          </a>
         </div>
       </section>
     </>
