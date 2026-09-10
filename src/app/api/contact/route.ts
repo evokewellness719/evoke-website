@@ -1,8 +1,6 @@
 import { NextResponse } from "next/server";
 import { Resend } from "resend";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
-
 export async function POST(request: Request) {
   const { firstName, lastName, email, subject, message } = await request.json();
 
@@ -11,6 +9,8 @@ export async function POST(request: Request) {
   }
 
   try {
+    // Constructed per request: the SDK throws on a missing key, which would otherwise break `next build`.
+    const resend = new Resend(process.env.RESEND_API_KEY);
     const { error } = await resend.emails.send({
       from: "EVOKE Wellness Contact Form <contact@evokewellness.net>",
       to: process.env.CONTACT_TO_EMAIL ?? "info@evokewellness.net",
