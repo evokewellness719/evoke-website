@@ -895,4 +895,341 @@ export const blogPosts: BlogPost[] = [
 <p><em>Nettle is available at <a href="https://shopevoke.net/">Shop EVOKE Wellness</a> in loose leaf, tincture, and capsule form.</em></p>
     `,
   },
+  {
+    slug: "herb-of-the-week-reishi",
+    title: "Herb of the Week: Reishi — The Mushroom of Immortality",
+    date: "2026-09-11",
+    category: "Herb of the Week",
+    excerpt: "As the days shorten, we turn to the herb Taoist physicians called the 'mushroom of immortality.' Reishi is the quiet backbone of a fall immune routine — and one of the most studied medicinal mushrooms in the world.",
+    content: `
+<p>There's a shift that happens in early September. The light changes, mornings turn crisp, and the body starts asking for something different — warmth, grounding, resilience. This is reishi season. For over 2,000 years, this glossy, reddish-brown mushroom has been the first thing traditional practitioners reached for when the seasons turned.</p>
+
+<h2>What Is Reishi?</h2>
+<p>Reishi (<em>Ganoderma lucidum</em>) is a woody polypore mushroom that grows on hardwood trees across Asia and North America. In Chinese medicine it's called <em>lingzhi</em> — "spirit plant" — and was once so prized it was reserved for emperors. It's not a culinary mushroom; it's bitter and tough, and its medicine comes out through long simmering or extraction.</p>
+
+<h2>What Reishi Is Good For</h2>
+<ul>
+  <li><strong>Immune modulation</strong> — beta-glucans and triterpenes help balance immune activity: strengthening a sluggish response, calming an overactive one</li>
+  <li><strong>Stress and sleep</strong> — a gentle adaptogen with a calming quality; traditionally used for restlessness and "an unquiet spirit"</li>
+  <li><strong>Respiratory support</strong> — long used for chronic cough, asthma, and seasonal bronchial complaints</li>
+  <li><strong>Liver support</strong> — studied for its protective effect on liver cells</li>
+  <li><strong>Longevity</strong> — antioxidant and anti-inflammatory activity that earned it its reputation as a tonic for a long life</li>
+</ul>
+
+<h2>How to Use It</h2>
+<p><strong>Decoction:</strong> Simmer sliced dried reishi in water for 1–2 hours. The tea is bitter — add cinnamon, ginger, or a little honey.</p>
+<p><strong>Dual-extract tincture:</strong> The most complete form, since some compounds are water-soluble and others alcohol-soluble. A dropperful daily through fall and winter.</p>
+<p><strong>Powder:</strong> Stir into coffee, cacao, or broth. Look for fruiting-body extracts rather than mycelium grown on grain.</p>
+<p>Reishi is a long-game herb. Start now, before cold season, and give it 4–6 weeks.</p>
+
+<h2>A Spiritual Note</h2>
+<p>The Taoists didn't call reishi the spirit mushroom because it made them feel invincible. They called it that because it made them feel <em>settled</em> — calm enough to sit, breathe, and pay attention. As the year begins its turn inward, that might be the medicine we need most.</p>
+
+<p><em>Reishi is available at <a href="https://shopevoke.net/">Shop EVOKE Wellness</a>, and our Loyalty Link partner Mush Love, Tee carries a beautiful selection of medicinal mushrooms just down the street.</em></p>
+    `,
+  },
+  {
+    slug: "herb-of-the-week-astragalus",
+    title: "Herb of the Week: Astragalus — Build Your Defenses Before You Need Them",
+    date: "2026-09-13",
+    category: "Herb of the Week",
+    excerpt: "Most people reach for immune herbs once they're already sick. Astragalus works the other way — taken steadily through the fall, it builds the deep reserves that carry you through winter.",
+    content: `
+<p>Here's a distinction that changes how you use herbs: some are for <em>when you're sick</em>, and some are for <em>before</em>. Echinacea is the fire extinguisher. Astragalus is the fireproofing. September is exactly when to start.</p>
+
+<h2>What Is Astragalus?</h2>
+<p>Astragalus (<em>Astragalus membranaceus</em>), known as <em>huang qi</em> in Chinese medicine, is a root in the pea family native to northern China and Mongolia. Its name means "yellow leader" — yellow for the color of the sliced root, leader because it was considered one of the most important tonic herbs in the entire pharmacopeia. It has been in continuous use for over 2,000 years.</p>
+
+<h2>What Astragalus Is Good For</h2>
+<ul>
+  <li><strong>Immune building</strong> — increases white blood cell production and activity; studied for reducing the frequency of colds and respiratory infections</li>
+  <li><strong>Energy and stamina</strong> — a classic remedy for fatigue, low vitality, and feeling "run down"</li>
+  <li><strong>Stress resilience</strong> — a mild adaptogen that supports the body's response to physical stress</li>
+  <li><strong>Heart and kidney support</strong> — traditionally used for fluid balance and cardiovascular health; a subject of ongoing research</li>
+  <li><strong>Recovery</strong> — supports rebuilding after illness or prolonged stress</li>
+</ul>
+
+<h2>How to Use It</h2>
+<p><strong>The most important rule:</strong> astragalus is for prevention, not acute illness. Traditional practice says to <em>stop</em> taking it at the first sign of a cold and switch to echinacea or elderberry. Resume once you're well.</p>
+<p><strong>Broth:</strong> The classic method. Add 3–4 slices of dried root to a pot of soup or bone broth and simmer. Remove before serving. Mild, slightly sweet, almost unnoticeable.</p>
+<p><strong>Tincture or capsule:</strong> A daily dose from September through March.</p>
+<p><strong>Tea:</strong> Simmer sliced root for 20–30 minutes; combine with reishi for a full fall tonic.</p>
+
+<h2>A Spiritual Note</h2>
+<p>Astragalus asks for something modern life rarely rewards: doing the quiet work now for a benefit you won't feel for months. There is a kind of faith in that — in tending the roots before the frost. Preparation is its own form of self-respect.</p>
+
+<p><em>Astragalus root is available at <a href="https://shopevoke.net/">Shop EVOKE Wellness</a> in sliced and tincture form.</em></p>
+    `,
+  },
+  {
+    slug: "herb-of-the-week-dandelion",
+    title: "Herb of the Week: Dandelion — The Weed That Feeds the Liver",
+    date: "2026-09-15",
+    category: "Herb of the Week",
+    excerpt: "Fall is root-harvest season, and no root is more overlooked than the one growing in your own yard. Dandelion is bitter, nourishing, and one of the best liver and digestive herbs there is.",
+    content: `
+<p>Every part of the dandelion is medicine — flower, leaf, and root — and every part is free. In autumn, after a full season of growing, the root is at its most potent: dense with inulin, bitter compounds, and minerals the plant pulled up from deep in the soil. This is when herbalists dig.</p>
+
+<h2>What Is Dandelion?</h2>
+<p>Dandelion (<em>Taraxacum officinale</em>) is native to Eurasia but grows on every continent except Antarctica. The name comes from the French <em>dent de lion</em> — lion's tooth — for its jagged leaves. It was deliberately brought to North America by European settlers as a food and medicine plant, long before anyone thought of it as a weed.</p>
+
+<h2>What Dandelion Is Good For</h2>
+<ul>
+  <li><strong>Liver support</strong> — the root stimulates bile production and supports the liver's natural detoxification pathways</li>
+  <li><strong>Digestion</strong> — a classic bitter that primes the digestive system: better appetite, less bloating, more complete digestion</li>
+  <li><strong>Gentle diuretic</strong> — the leaf reduces water retention while replacing the potassium most diuretics deplete</li>
+  <li><strong>Gut health</strong> — the root is rich in inulin, a prebiotic fiber that feeds beneficial gut bacteria</li>
+  <li><strong>Nutrition</strong> — the leaves are exceptionally high in vitamins A, C, and K, iron, and calcium</li>
+  <li><strong>Skin</strong> — traditionally used internally for acne, eczema, and skin conditions rooted in sluggish digestion</li>
+</ul>
+
+<h2>How to Use It</h2>
+<p><strong>Roasted root "coffee":</strong> Chop, dry, and roast the root until dark and fragrant. Simmer like coffee. Rich, earthy, caffeine-free — a genuinely good morning ritual.</p>
+<p><strong>Root decoction:</strong> Simmer 1–2 teaspoons of dried root for 15 minutes. Drink before meals as a digestive bitter.</p>
+<p><strong>Leaf tea or salad:</strong> Young leaves are excellent raw in salads or lightly sautéed with garlic.</p>
+<p><strong>Tincture:</strong> A few drops before meals for a concentrated bitter effect.</p>
+<p>If you harvest your own, choose plants far from roads and untreated lawns.</p>
+
+<h2>A Spiritual Note</h2>
+<p>The dandelion is the plant we spend the most energy trying to kill and the one that most refuses to leave. It grows through pavement. It seeds itself on the wind. There is a lesson in a medicine that stubborn — sometimes what we call a weed is simply a gift we haven't recognized yet.</p>
+
+<p><em>Dandelion root and leaf are available at <a href="https://shopevoke.net/">Shop EVOKE Wellness</a>.</em></p>
+    `,
+  },
+  {
+    slug: "herb-of-the-week-hawthorn",
+    title: "Herb of the Week: Hawthorn — Medicine for the Heart, in Every Sense",
+    date: "2026-09-17",
+    category: "Herb of the Week",
+    excerpt: "Hawthorn berries ripen deep red in September, and they carry one of the most trusted heart tonics in Western herbalism — for the cardiovascular heart and the grieving one alike.",
+    content: `
+<p>Walk a hedgerow in early fall and you'll find them: clusters of small crimson berries on a thorny shrub, waiting for the first frost to sweeten. Hawthorn has been the heart herb of European folk medicine for at least a thousand years, and modern cardiology has spent decades confirming why.</p>
+
+<h2>What Is Hawthorn?</h2>
+<p>Hawthorn (<em>Crataegus</em> species) is a thorny tree in the rose family found across Europe, North America, and Asia. The berries, leaves, and flowers are all used. In the British Isles it was the "May tree," sacred and protected; in Chinese medicine the berry (<em>shan zha</em>) has been used for digestion and circulation for centuries.</p>
+
+<h2>What Hawthorn Is Good For</h2>
+<ul>
+  <li><strong>Cardiovascular support</strong> — improves blood flow to the heart muscle, strengthens contraction, and supports healthy blood pressure; clinically studied for mild heart failure</li>
+  <li><strong>Circulation</strong> — dilates blood vessels and improves peripheral blood flow</li>
+  <li><strong>Antioxidant</strong> — rich in flavonoids and oligomeric proanthocyanidins that protect blood vessel walls</li>
+  <li><strong>Digestion</strong> — the berry aids the digestion of rich, fatty foods</li>
+  <li><strong>Emotional heart</strong> — traditionally used for grief, heartbreak, and anxiety felt in the chest</li>
+</ul>
+
+<h2>How to Use It</h2>
+<p><strong>Berry tea:</strong> Simmer 1–2 teaspoons of dried berries for 15 minutes. Tart, slightly sweet, pleasant.</p>
+<p><strong>Tincture:</strong> Leaf and flower, or berry — or a combination. Taken daily for months; hawthorn is a slow, cumulative tonic.</p>
+<p><strong>Syrup or jam:</strong> The berries make a lovely fall preserve.</p>
+<p><strong>Important:</strong> Hawthorn is very safe, but because it acts on the heart, anyone taking cardiac medications — especially digoxin or beta-blockers — should work with a practitioner before adding it.</p>
+
+<h2>A Spiritual Note</h2>
+<p>Herbalists have always noticed that hawthorn helps both hearts — the muscle and the feeling. When someone comes in carrying loss, hawthorn is often the first thing offered, not because it fixes grief, but because it steadies the place where grief lives. Some medicine is about holding rather than curing.</p>
+
+<p><em>Hawthorn berry and tincture are available at <a href="https://shopevoke.net/">Shop EVOKE Wellness</a>.</em></p>
+    `,
+  },
+  {
+    slug: "herb-of-the-week-sage",
+    title: "Herb of the Week: Sage — The Herb of the Wise",
+    date: "2026-09-19",
+    category: "Herb of the Week",
+    excerpt: "Its Latin name means 'to save.' Sage has been a throat remedy, a memory tonic, a preservative, and a sacred smoke across cultures — and it's probably already in your kitchen.",
+    content: `
+<p>"Why should a man die who has sage in his garden?" asked a medieval medical school. That's a bold claim for a kitchen herb — but sage earned it. <em>Salvia</em> comes from the Latin <em>salvere</em>, to be saved or healed, and for most of recorded history, sage was considered essential medicine.</p>
+
+<h2>What Is Sage?</h2>
+<p>Garden sage (<em>Salvia officinalis</em>) is a woody Mediterranean shrub with soft, silver-green leaves and a strong, resinous aroma. It's one of the largest genera in the mint family. (Note: white sage, <em>Salvia apiana</em>, used ceremonially by Indigenous peoples of the Southwest, is a different plant and is best left to those traditions — garden sage is what we're discussing here.)</p>
+
+<h2>What Sage Is Good For</h2>
+<ul>
+  <li><strong>Sore throat</strong> — one of the most effective herbal gargles; antimicrobial, astringent, and soothing</li>
+  <li><strong>Memory and cognition</strong> — clinical studies show sage extract improves memory, attention, and mood; it inhibits the enzyme that breaks down acetylcholine</li>
+  <li><strong>Hot flashes and night sweats</strong> — a well-studied remedy for excessive sweating, especially in menopause</li>
+  <li><strong>Digestion</strong> — a carminative that eases gas and helps digest rich foods (hence sage with fatty meats)</li>
+  <li><strong>Mouth and gum health</strong> — antibacterial; used in mouthwashes and for inflamed gums</li>
+  <li><strong>Antioxidant</strong> — extremely high in rosmarinic acid and other protective compounds</li>
+</ul>
+
+<h2>How to Use It</h2>
+<p><strong>Throat gargle:</strong> Steep 1 tablespoon of dried sage in a cup of hot water for 15 minutes, add a pinch of salt, cool, and gargle. This is the remedy to remember as cold season approaches.</p>
+<p><strong>Tea:</strong> 1 teaspoon dried leaf, steeped 5–10 minutes. Strong — pair with lemon and honey. Drink cool for night sweats.</p>
+<p><strong>Cooking:</strong> Fresh sage in butter, with squash, beans, and roasted vegetables — this is medicine you'll actually take.</p>
+<p><strong>Note:</strong> Sage contains thujone; avoid large medicinal doses during pregnancy or while breastfeeding (it can reduce milk supply — which is also why it's used deliberately during weaning).</p>
+
+<h2>A Spiritual Note</h2>
+<p>Nearly every culture that grew sage came to associate it with wisdom and clarity. The Romans harvested it with ceremony. Medieval monks grew it for memory. There is something to an herb that sharpens the mind while it clears the throat — as if speaking clearly and thinking clearly were always the same work.</p>
+
+<p><em>Sage is available at <a href="https://shopevoke.net/">Shop EVOKE Wellness</a>.</em></p>
+    `,
+  },
+  {
+    slug: "herb-of-the-week-cinnamon",
+    title: "Herb of the Week: Cinnamon — Warmth, Balance, and the Turn of the Season",
+    date: "2026-09-21",
+    category: "Herb of the Week",
+    excerpt: "The equinox is a hinge between seasons, and cinnamon is the herb of that threshold — warming the body as the air cools, and helping steady blood sugar as we drift toward comfort food.",
+    content: `
+<p>Tomorrow is the autumn equinox — equal day and night, then the long tilt into darkness. Traditional medicine has always met this turn with warming spices, and none is more beloved than cinnamon. Once worth more than silver, fought over by empires, it's now so common we forget it's medicine at all.</p>
+
+<h2>What Is Cinnamon?</h2>
+<p>Cinnamon is the inner bark of trees in the <em>Cinnamomum</em> genus. Two kinds matter: <strong>Ceylon</strong> ("true" cinnamon, <em>C. verum</em>), which is delicate and low in coumarin, and <strong>Cassia</strong> (<em>C. cassia</em>), the stronger, cheaper kind in most grocery stores. For daily medicinal use, choose Ceylon — cassia's coumarin content can stress the liver in large amounts.</p>
+
+<h2>What Cinnamon Is Good For</h2>
+<ul>
+  <li><strong>Blood sugar balance</strong> — improves insulin sensitivity and lowers fasting blood glucose in multiple clinical trials; helpful as fall diets shift toward carbohydrates</li>
+  <li><strong>Circulation and warmth</strong> — a circulatory stimulant for cold hands and feet and sluggish digestion in cool weather</li>
+  <li><strong>Antimicrobial</strong> — cinnamaldehyde is strongly antibacterial and antifungal; traditionally used for colds and digestive infections</li>
+  <li><strong>Anti-inflammatory and antioxidant</strong> — among the highest antioxidant values of any common spice</li>
+  <li><strong>Digestion</strong> — eases nausea, gas, and bloating</li>
+  <li><strong>Menstrual support</strong> — warming and antispasmodic for cramps</li>
+</ul>
+
+<h2>How to Use It</h2>
+<p><strong>Daily:</strong> ½–1 teaspoon of Ceylon cinnamon in oatmeal, coffee, smoothies, or yogurt — this is the dose used in blood sugar studies.</p>
+<p><strong>Tea:</strong> Simmer a cinnamon stick with ginger and a few cloves for a warming fall tonic.</p>
+<p><strong>Chai:</strong> The classic. Black tea, cinnamon, cardamom, ginger, clove, and black pepper — nearly every ingredient is a circulatory or digestive herb.</p>
+<p><strong>Tincture:</strong> For acute digestive upset or as a warming addition to other formulas.</p>
+
+<h2>A Spiritual Note</h2>
+<p>The equinox is a moment of perfect balance that lasts exactly one day before tipping. That's the nature of balance — not a place you arrive, but a point you pass through, again and again. Cinnamon has always been an herb for thresholds: burned at altars, stirred into feast-day food, offered at the turn of the year. Mark the turn. Then keep going.</p>
+
+<p><em>Ceylon cinnamon is available at <a href="https://shopevoke.net/">Shop EVOKE Wellness</a>.</em></p>
+    `,
+  },
+  {
+    slug: "herb-of-the-week-rose-hips",
+    title: "Herb of the Week: Rose Hips — Vitamin C From the Hedgerow",
+    date: "2026-09-23",
+    category: "Herb of the Week",
+    excerpt: "After the roses fade, the fruit remains — and it holds more vitamin C than an orange. Rose hips are the original immune tonic, harvested in fall and treasured through winter for centuries.",
+    content: `
+<p>During the Second World War, when citrus couldn't reach Britain, the government sent children into the hedgerows to gather rose hips. Millions of pounds were collected and made into syrup to keep the population from scurvy. That wartime remedy was ancient knowledge rediscovered: the fruit of the rose is one of the richest vitamin C sources on earth.</p>
+
+<h2>What Are Rose Hips?</h2>
+<p>Rose hips are the fruit that forms after a rose flower is pollinated — the swollen, red-orange seed pod left behind when the petals fall. Wild roses (<em>Rosa canina</em>, <em>Rosa rugosa</em>, and others) produce the best hips. They ripen in September and sweeten after the first frost.</p>
+
+<h2>What Rose Hips Are Good For</h2>
+<ul>
+  <li><strong>Immune support</strong> — exceptionally high in vitamin C, plus bioflavonoids that help the body absorb and use it</li>
+  <li><strong>Joint pain</strong> — clinical trials show rose hip powder reduces osteoarthritis pain and stiffness, likely through a compound called GOPO</li>
+  <li><strong>Skin health</strong> — vitamin C supports collagen production; rose hip seed oil is a celebrated topical for scars and aging skin</li>
+  <li><strong>Antioxidant</strong> — rich in lycopene, beta-carotene, and polyphenols</li>
+  <li><strong>Gentle digestion and urinary support</strong> — mildly astringent and diuretic</li>
+</ul>
+
+<h2>How to Use It</h2>
+<p><strong>Tea:</strong> Steep 1–2 teaspoons of dried, seeded hips in hot (not boiling) water for 10–15 minutes. Tart, fruity, beautiful with hibiscus or cinnamon. High heat destroys vitamin C, so don't boil.</p>
+<p><strong>Syrup:</strong> Simmer fresh hips, strain carefully (the seed hairs are irritating), and sweeten with honey. A spoonful daily through winter.</p>
+<p><strong>Powder:</strong> The form used in arthritis studies — add to smoothies.</p>
+<p><strong>Seed oil:</strong> Applied topically to the face and to scars.</p>
+
+<h2>A Spiritual Note</h2>
+<p>We celebrate the rose for its bloom and forget it entirely once the petals fall. But the plant's real generosity comes after — quietly, in the fruit, when no one is looking. There is something to honor in that: the value of what remains once the beautiful part is over.</p>
+
+<p><em>Rose hips are available at <a href="https://shopevoke.net/">Shop EVOKE Wellness</a>.</em></p>
+    `,
+  },
+  {
+    slug: "herb-of-the-week-thyme",
+    title: "Herb of the Week: Thyme — The Respiratory Herb for Cough Season",
+    date: "2026-09-25",
+    category: "Herb of the Week",
+    excerpt: "Before cough syrup came in a bottle, it came from thyme. This humble kitchen herb is one of the most effective natural remedies for coughs, bronchitis, and chest congestion — and the science backs the tradition.",
+    content: `
+<p>Thyme is the herb you'll wish you'd stocked in October. As soon as the first chest cold moves through a household, thyme tea, thyme honey, and thyme steam become the most useful things in the kitchen. Germany's Commission E — the world's most rigorous herbal regulatory body — officially approves thyme for bronchitis and coughs. Your grandmother could have told them that.</p>
+
+<h2>What Is Thyme?</h2>
+<p>Thyme (<em>Thymus vulgaris</em>) is a low, woody Mediterranean herb in the mint family with tiny aromatic leaves. Ancient Greeks burned it as incense; Roman soldiers bathed in it for courage; medieval women embroidered sprigs of it onto knights' scarves. Its essential oil, thymol, is still an active ingredient in commercial mouthwashes and antiseptics.</p>
+
+<h2>What Thyme Is Good For</h2>
+<ul>
+  <li><strong>Coughs and bronchitis</strong> — an expectorant and antispasmodic that loosens mucus and calms the cough reflex; clinically studied in combination with ivy leaf</li>
+  <li><strong>Respiratory infections</strong> — thymol and carvacrol are strongly antibacterial and antiviral</li>
+  <li><strong>Sore throat</strong> — antiseptic gargle</li>
+  <li><strong>Digestion</strong> — antimicrobial and carminative; helpful for gas and mild digestive infections</li>
+  <li><strong>Oral health</strong> — antibacterial against the organisms that cause gum disease and bad breath</li>
+  <li><strong>Immune support</strong> — high in vitamin C and antioxidant compounds</li>
+</ul>
+
+<h2>How to Use It</h2>
+<p><strong>Tea:</strong> Steep 1–2 teaspoons of dried thyme (or a few fresh sprigs) covered for 10 minutes — covering keeps the volatile oils in. Add honey. Drink 2–3 cups daily during a cough.</p>
+<p><strong>Thyme honey:</strong> Fill a jar with fresh thyme, cover with raw honey, and let sit for two weeks. Take by the spoonful or stir into tea. Make it now, before you need it.</p>
+<p><strong>Steam:</strong> A handful of thyme in a bowl of hot water; drape a towel and breathe for 5–10 minutes to open the chest.</p>
+<p><strong>Tincture or syrup:</strong> Concentrated forms for acute bronchial illness.</p>
+
+<h2>A Spiritual Note</h2>
+<p>The Greeks associated thyme with courage — <em>thymos</em> meant spirit, the breath of life itself. It's fitting that a plant named for breath became the great medicine for breathing. When the chest is tight and the air feels thin, thyme reminds the body how to open again.</p>
+
+<p><em>Thyme is available at <a href="https://shopevoke.net/">Shop EVOKE Wellness</a>.</em></p>
+    `,
+  },
+  {
+    slug: "herb-of-the-week-licorice-root",
+    title: "Herb of the Week: Licorice Root — Sweet Support for Throat and Adrenals",
+    date: "2026-09-27",
+    category: "Herb of the Week",
+    excerpt: "Fifty times sweeter than sugar and found in more traditional formulas than almost any other herb, licorice root soothes the throat, supports worn-out adrenals, and helps other herbs work better.",
+    content: `
+<p>Licorice root appears in more Chinese herbal formulas than any other single herb — not as the star, but as the harmonizer, the one that makes the whole formula gentler and more effective. In Western herbalism it's the great soother: for throats, stomachs, and nervous systems that have been running on empty. It is, however, an herb that demands respect.</p>
+
+<h2>What Is Licorice Root?</h2>
+<p>Licorice (<em>Glycyrrhiza glabra</em>) is a legume native to the Mediterranean and Central Asia. The root contains glycyrrhizin — the compound responsible for its intense sweetness and most of its medicinal action. (The candy usually contains little or no actual licorice; it's flavored with anise.)</p>
+
+<h2>What Licorice Root Is Good For</h2>
+<ul>
+  <li><strong>Sore throat and cough</strong> — a demulcent that coats and soothes irritated tissue; expectorant for chest congestion</li>
+  <li><strong>Adrenal support</strong> — slows the breakdown of cortisol, extending its effect; traditionally used for burnout, exhaustion, and low energy after prolonged stress</li>
+  <li><strong>Digestive healing</strong> — protects and heals the stomach lining; DGL (deglycyrrhizinated licorice) is a well-studied remedy for ulcers and reflux</li>
+  <li><strong>Antiviral</strong> — active against a range of viruses, including those behind cold sores and respiratory infections</li>
+  <li><strong>Anti-inflammatory</strong> — cortisol-like activity that calms inflammation in the gut, lungs, and skin</li>
+  <li><strong>Formula harmonizer</strong> — improves the taste and reduces the harshness of other herbs</li>
+</ul>
+
+<h2>How to Use It — And the Important Caution</h2>
+<p><strong>Tea:</strong> Simmer ½–1 teaspoon of sliced root for 10 minutes. Naturally sweet; pairs beautifully with thyme, sage, or ginger for cold-season blends.</p>
+<p><strong>DGL chewable tablets:</strong> For reflux and stomach irritation — the glycyrrhizin is removed, so it's safe for longer use.</p>
+<p><strong>Tincture:</strong> Small amounts in throat and adrenal formulas.</p>
+<p><strong>Caution:</strong> Whole licorice raises blood pressure and lowers potassium with prolonged or heavy use. Limit to 4–6 weeks at a time, and avoid it entirely if you have high blood pressure, kidney disease, or heart conditions, or during pregnancy. When in doubt, ask us.</p>
+
+<h2>A Spiritual Note</h2>
+<p>There's a reason the harmonizer is sweet. Licorice teaches that the ingredient which brings everything together is rarely the loudest — it's the one that softens the edges so the rest can do their work. Every community has a licorice root. Be grateful for yours.</p>
+
+<p><em>Licorice root is available at <a href="https://shopevoke.net/">Shop EVOKE Wellness</a>.</em></p>
+    `,
+  },
+  {
+    slug: "herb-of-the-week-burdock",
+    title: "Herb of the Week: Burdock — The Deep Root of Clear Skin and Clean Blood",
+    date: "2026-09-29",
+    category: "Herb of the Week",
+    excerpt: "The plant that inspired Velcro also grows one of the deepest, most nourishing roots in the herbal world. Burdock is the classic 'blood cleanser' — a fall-harvest remedy for skin, liver, and lymph.",
+    content: `
+<p>Burdock is the plant with the burrs — the ones that cling to your socks and your dog after a fall walk. (A Swiss engineer studied those burrs under a microscope in 1941 and invented Velcro.) But underground, burdock is doing something far more interesting: sending a taproot two or three feet down into the earth, pulling up minerals, and storing a season's worth of medicine. Fall is when we dig it.</p>
+
+<h2>What Is Burdock?</h2>
+<p>Burdock (<em>Arctium lappa</em>) is a biennial in the daisy family native to Europe and Asia and naturalized across North America. First-year roots — harvested in fall before the plant flowers — are the medicine. In Japan the root is a common vegetable called <em>gobo</em>, eaten braised, pickled, and in soups.</p>
+
+<h2>What Burdock Is Good For</h2>
+<ul>
+  <li><strong>Skin conditions</strong> — the classic herb for acne, eczema, and psoriasis, working from the inside by supporting liver and lymphatic clearance</li>
+  <li><strong>Liver and "blood cleansing"</strong> — an alterative: a traditional category of herbs that gradually improve the body's elimination pathways</li>
+  <li><strong>Lymphatic support</strong> — moves stagnant lymph; used for swollen glands and sluggish immunity</li>
+  <li><strong>Gut health</strong> — very high in inulin, a prebiotic fiber that feeds beneficial bacteria</li>
+  <li><strong>Blood sugar</strong> — inulin and other compounds support healthy glucose regulation</li>
+  <li><strong>Gentle diuretic</strong> — supports kidney function and fluid balance</li>
+</ul>
+
+<h2>How to Use It</h2>
+<p><strong>Decoction:</strong> Simmer 1–2 teaspoons of dried root for 20 minutes. Earthy, mildly sweet. Drink daily for 4–8 weeks for skin concerns — burdock works slowly and cumulatively.</p>
+<p><strong>Food:</strong> Peel and slice fresh root; sauté with carrots and sesame (the Japanese dish <em>kinpira gobo</em>), or add to soups and stews. Medicine that tastes like dinner.</p>
+<p><strong>Tincture:</strong> Often combined with dandelion, nettle, or red clover in skin and liver formulas.</p>
+<p><strong>Combine with dandelion root</strong> for a complete fall liver tonic — the two have been paired for centuries.</p>
+
+<h2>A Spiritual Note</h2>
+<p>You cannot rush a taproot. Burdock spends its entire first year going down — no flower, no show, just depth. Then, from that depth, it draws up what nothing shallow could reach. As the season turns inward, let this be the model: go deep first. The flowering comes later, and it comes from the root.</p>
+
+<p><em>Burdock root is available at <a href="https://shopevoke.net/">Shop EVOKE Wellness</a>.</em></p>
+    `,
+  },
 ].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
