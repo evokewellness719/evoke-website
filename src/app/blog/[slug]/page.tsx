@@ -1,37 +1,38 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { blogPosts } from "@/lib/blog-posts";
+import { getPublishedPosts, formatPostDate } from "@/lib/blog-posts";
+
+export const revalidate = 3600;
 
 export function generateStaticParams() {
-  return blogPosts.map((post) => ({ slug: post.slug }));
+  return getPublishedPosts().map((post) => ({ slug: post.slug }));
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
-  const post = blogPosts.find((p) => p.slug === slug);
+  const post = getPublishedPosts().find((p) => p.slug === slug);
   if (!post) return {};
   return { title: `${post.title} | EVOKE Wellness`, description: post.excerpt };
 }
 
 export default async function BlogPost({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
-  const post = blogPosts.find((p) => p.slug === slug);
+  const post = getPublishedPosts().find((p) => p.slug === slug);
   if (!post) notFound();
 
   return (
     <>
-      <section className="pt-32 pb-10 bg-gradient-to-b from-cream-200 to-cream-50">
+      <section className="pt-40 pb-10 bg-cream-50">
         <div className="max-w-3xl mx-auto px-6">
-          <Link href="/blog" className="text-sm text-brown-500 hover:text-gold-600 transition-colors mb-6 inline-block">
+          <Link href="/blog" className="text-sm text-brown-500 hover:text-gold-600 transition-colors mb-8 inline-block">
             ← Back to Blog
           </Link>
-          <span className="inline-block text-xs font-semibold text-gold-600 tracking-widest uppercase mb-4">
-            {post.category}
-          </span>
-          <h1 className="font-serif text-4xl md:text-5xl text-brown-800 mb-4 leading-tight">{post.title}</h1>
-          <p className="text-brown-400 text-sm">
-            {new Date(post.date).toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })}
-          </p>
+          <div className="flex items-center gap-3 mb-4 text-xs">
+            <span className="font-medium text-gold-600 tracking-[0.2em] uppercase">{post.category}</span>
+            <span className="text-brown-300">·</span>
+            <time dateTime={post.date} className="text-brown-500">{formatPostDate(post.date)}</time>
+          </div>
+          <h1 className="font-serif text-4xl md:text-5xl text-brown-800 leading-tight">{post.title}</h1>
         </div>
       </section>
 

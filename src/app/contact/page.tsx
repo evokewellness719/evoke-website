@@ -28,11 +28,18 @@ const items = [
     note: null,
   },
   {
-    label: "Visit",
+    label: "Colorado",
     value: "2627 W Colorado Ave",
     href: "https://maps.google.com/?q=2627+W+Colorado+Ave+Colorado+Springs+CO+80904",
     external: true,
-    note: "Inside Mush Love, Tee · Old Colorado City, Colorado Springs, CO 80904 — plus a second location coming soon in Cumby, Texas",
+    note: "Inside Mush Love, Tee · Old Colorado City, Colorado Springs, CO 80904",
+  },
+  {
+    label: "Texas",
+    value: "107 E N Interstate-30 Service Rd",
+    href: "https://maps.google.com/?q=107+E+N+Interstate+30+Service+Rd+Cumby+TX+75433",
+    external: true,
+    note: "Cumby, TX 75433",
   },
 ];
 

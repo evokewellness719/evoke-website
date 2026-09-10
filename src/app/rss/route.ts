@@ -1,9 +1,9 @@
-import { blogPosts } from "@/lib/blog-posts";
+import { getPublishedPosts } from "@/lib/blog-posts";
 
 export async function GET() {
   const baseUrl = "https://evokewellness.net";
 
-  const items = blogPosts
+  const items = getPublishedPosts()
     .map(
       (post) => `
     <item>

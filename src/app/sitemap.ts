@@ -1,4 +1,6 @@
-import { blogPosts } from "@/lib/blog-posts";
+import { getPublishedPosts } from "@/lib/blog-posts";
+
+export const revalidate = 3600;
 
 export default function sitemap() {
   const base = "https://evokewellness.net";
@@ -16,7 +18,7 @@ export default function sitemap() {
     { url: `${base}/faq`, lastModified: new Date(), priority: 0.6 },
   ];
 
-  const blogPages = blogPosts.map((post) => ({
+  const blogPages = getPublishedPosts().map((post) => ({
     url: `${base}/blog/${post.slug}`,
     lastModified: new Date(post.date),
     priority: 0.7,

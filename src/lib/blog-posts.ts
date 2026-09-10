@@ -1233,3 +1233,17 @@ export const blogPosts: BlogPost[] = [
     `,
   },
 ].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+
+// Posts go live at midnight Mountain time on their date.
+export function getPublishedPosts(): BlogPost[] {
+  const today = new Date().toLocaleDateString("en-CA", { timeZone: "America/Denver" });
+  return blogPosts.filter((p) => p.date <= today);
+}
+
+export function formatPostDate(date: string): string {
+  return new Date(`${date}T12:00:00`).toLocaleDateString("en-US", {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  });
+}
