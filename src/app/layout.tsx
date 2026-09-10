@@ -35,7 +35,7 @@ export default function RootLayout({
     "telephone": "(719) 323-4691",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "2616 W Colorado Ave Suite 15",
+      "streetAddress": "2627 W Colorado Ave",
       "addressLocality": "Colorado Springs",
       "addressRegion": "CO",
       "postalCode": "80904",

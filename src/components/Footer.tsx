@@ -65,7 +65,8 @@ export default function Footer() {
         <div className="md:col-span-3">
           <h4 className="text-xs font-semibold tracking-[0.2em] uppercase text-brown-800 mb-4">Visit</h4>
           <ul className="space-y-2.5 text-sm text-brown-600">
-            <li>2616 W Colorado Ave, Suite 15<br />Colorado Springs, CO 80904</li>
+            <li>2627 W Colorado Ave<br />Colorado Springs, CO 80904</li>
+            <li className="text-brown-500">Cumby, Texas — coming soon</li>
             <li><a href="tel:+17193234691" className={linkClass}>(719) 323-4691</a></li>
             <li><a href="mailto:info@evokewellness.net" className={linkClass}>info@evokewellness.net</a></li>
           </ul>

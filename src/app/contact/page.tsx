@@ -29,10 +29,10 @@ const items = [
   },
   {
     label: "Visit",
-    value: "2616 W Colorado Ave, Suite 15",
-    href: "https://maps.google.com/?q=2616+W+Colorado+Ave+Suite+15+Colorado+Springs+CO+80904",
+    value: "2627 W Colorado Ave",
+    href: "https://maps.google.com/?q=2627+W+Colorado+Ave+Colorado+Springs+CO+80904",
     external: true,
-    note: "Old Colorado City · Colorado Springs, CO 80904",
+    note: "Old Colorado City · Colorado Springs, CO 80904 — plus a second location coming soon in Cumby, Texas",
   },
 ];
 
