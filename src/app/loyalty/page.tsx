@@ -13,7 +13,7 @@ const partners = [
     desc: "Naturopathic care, herbal products, mental wellness, and spiritual community.",
     perk: "Member benefits",
     logo: "/evoke-logo.webp",
-    address: "2627 W Colorado Ave, Colorado Springs, CO 80904",
+    address: "2627 W Colorado Ave (inside Mush Love, Tee), Colorado Springs, CO 80904",
     url: "https://shopevoke.net/",
   },
   {

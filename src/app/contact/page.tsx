@@ -32,7 +32,7 @@ const items = [
     value: "2627 W Colorado Ave",
     href: "https://maps.google.com/?q=2627+W+Colorado+Ave+Colorado+Springs+CO+80904",
     external: true,
-    note: "Old Colorado City · Colorado Springs, CO 80904 — plus a second location coming soon in Cumby, Texas",
+    note: "Inside Mush Love, Tee · Old Colorado City, Colorado Springs, CO 80904 — plus a second location coming soon in Cumby, Texas",
   },
 ];
 
