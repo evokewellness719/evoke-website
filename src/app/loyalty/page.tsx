@@ -49,14 +49,6 @@ const partners = [
     url: null,
   },
   {
-    name: "Base Camp Restaurant",
-    desc: "Regional cuisine with a welcoming community atmosphere.",
-    perk: "BOGO beer, wine & soda",
-    logo: "/basecamp-logo.jpg",
-    address: "2611 W Colorado Ave, Colorado Springs, CO 80904",
-    url: "https://basecampcos.com",
-  },
-  {
     name: "The Enchanted Fox",
     desc: "Metaphysical shop offering herbs, crystals, Reiki, and tarot.",
     perk: "7% off",
